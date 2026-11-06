@@ -64,8 +64,9 @@ DX's own U701 chip is between them.*
 ## Interactive 3D walkthrough
 
 There is an interactive 3D walkthrough of the DX, the board, the build and the installation.
-Once GitHub Pages is enabled for this repository it is at
-**<https://sabrehagen.github.io/oberheim-dx-timeshift/>**. To run it on your own computer, see
+It is live at
+**<https://jacksondelahunt.com/oberheim-dx-timeshift/>** (also reachable as
+<https://sabrehagen.github.io/oberheim-dx-timeshift/>). To run it on your own computer, see
 [webapp/README.md](webapp/README.md).
 
 ![The web walkthrough, overview stage](webapp/screenshots/05-overview.png)
