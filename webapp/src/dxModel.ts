@@ -2,9 +2,8 @@
  * Selects which Oberheim DX model the app builds. Both expose the same API, anchor ids and
  * sub-objects, so stages, cables and labels work with either:
  *
- *   v1 (default): dxModelV1.ts, the original stylised model.
- *   v2:           dxModelV2.ts, a more faithful procedural model built from the reference photos
- *                 (work in progress, kept selectable for comparison).
+ *   v2 (default): dxModelV2.ts, a faithful procedural model built from the reference photos.
+ *   v1:           dxModelV1.ts, the original stylised model, kept selectable for comparison.
  *
  * The choice comes from the URL (`?dx=v1` or `?dx=v2`) and is fixed for the page's lifetime;
  * the header toggle reloads the page with the other value (see main.ts).
@@ -18,14 +17,14 @@ export type DxVersion = 'v1' | 'v2';
 
 export const DX_VERSIONS: Record<DxVersion, { label: string; name: string }> = {
   v1: { label: 'v1 (stylised)', name: 'the original stylised model' },
-  v2: { label: 'v2 (faithful, in progress)', name: 'procedural model built from reference photos' },
+  v2: { label: 'v2 (faithful)', name: 'procedural model built from reference photos' },
 };
 
 function readVersion(): DxVersion {
   try {
-    return new URLSearchParams(window.location.search).get('dx') === 'v2' ? 'v2' : 'v1';
+    return new URLSearchParams(window.location.search).get('dx') === 'v1' ? 'v1' : 'v2';
   } catch {
-    return 'v1';
+    return 'v2';
   }
 }
 

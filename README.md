@@ -80,10 +80,10 @@ The script, procedure and adapter drawing for this option have not been written 
 There is an interactive 3D walkthrough of the DX, the board, the build and the installation.
 It is live at
 **<https://jacksondelahunt.com/oberheim-dx-timeshift/>** (also reachable as
-<https://sabrehagen.github.io/oberheim-dx-timeshift/>). It plays at 2x by default. The DX itself is
-drawn by a simple stylised model (v1). A more faithful model built from the reference photos is
-work in progress and can be viewed with the **DX model** button in the header or by adding
-`?dx=v2` to the address. To run it on your own computer, see
+<https://sabrehagen.github.io/oberheim-dx-timeshift/>). It plays at 2x by default. The DX is drawn by a
+procedural model built from the reference photos (v2, no third-party assets). The earlier simple
+stylised model is still available with the **DX model** button in the header or by adding
+`?dx=v1` to the address. To run it on your own computer, see
 [webapp/README.md](webapp/README.md).
 
 ![The web walkthrough, overview stage](webapp/screenshots/05-overview.png)

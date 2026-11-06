@@ -52,7 +52,7 @@ Shots are written per DX model as `screenshots/v2-*.png` and `screenshots/v1-*.p
 `screenshots/00-dx-hero.png` (the v2 DX alone, lid closed, framed like the Wikimedia photo).
 `--draw-calls` also prints the DX draw-call count.
 
-## The DX model: v1 (stylised, default) or v2 (faithful, work in progress)
+## The DX model: v2 (faithful, default) or v1 (stylised)
 
 ![The procedural Oberheim DX (v2), lid closed](screenshots/00-dx-hero.png)
 
@@ -71,8 +71,8 @@ The layout was checked against the Wikimedia Commons photos of the DX front pane
 processor board (CC BY-SA, see `../docs/reference/INDEX.md`).
 
 The original stylised stand-in is kept as **v1** (`src/dxModelV1.ts`) in case it works better
-for a stage. Choose with the **DX model: v1 / v2** button in the header (it reloads the page at
-the same stage and point) or with the URL parameter `?dx=v1` / `?dx=v2` (default v1; v2 is still being checked against the real unit). Nothing
+for a stage. Choose with the **DX model: v2 / v1** button in the header (it reloads the page at
+the same stage and point) or with the URL parameter `?dx=v1` / `?dx=v2` (default v2). Nothing
 is stored; the URL is the state. The badge at the bottom left of the 3D view shows which DX
 model is active. `src/dxModel.ts` is the selector: both versions export the same API and
 register the same anchor ids (`dx.u701`, `dx.r791`, `dx.pot.snare`, `dx.jack.clockOut`,
@@ -129,8 +129,8 @@ webapp/
   src/insets.ts           2D animated diagrams (beat/tick, timing, mux, queue, ribbon map, ...)
   src/world.ts            builds the scene and applies the stage state (board pose, lid, cables)
   src/dxModel.ts          picks the DX model (?dx=v1|v2) and re-exports its API
-  src/dxModelV1.ts        the original stylised DX (default)
-  src/dxModelV2.ts        faithful procedural Oberheim DX (?dx=v2, work in progress): case, panel, lid, main board, rear panel
+  src/dxModelV2.ts        faithful procedural Oberheim DX (default): case, panel, lid, main board, rear panel
+  src/dxModelV1.ts        the original stylised DX (?dx=v1)
   src/boardModel.ts       procedural TimeShift board, part list, nets, KiCad matching
   src/glbBoard.ts         loads and fits the KiCad GLB
   src/cables.ts           ribbon, DIP plug, pot and clock leads, grabbers
