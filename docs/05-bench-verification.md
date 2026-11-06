@@ -49,6 +49,10 @@ fuse and line filter on the right-hand side.
 
 ### Q0. Which model, board and firmware?
 
+> **Owner's answer (2026-11-06): the unit is a plain Oberheim DX, not a DXa.** So the rev A pin
+> assignment (U701 pins 15, 12, 10) applies. Still do the steps below when the lid is first opened:
+> they also record the board number, the firmware version (needed for Q2) and any extra boards (Q3).
+
 * **Why it matters.** The pin numbers are for the plain DX (board 1721A). On a DXa (board 1906) the
   snare lines are on **U715 pins 7 (RST2), 5 (FFA2) and 2 (FFB2)**, not U701 pins 15, 12 and 10. A
   rev A board in a DXa would do nothing useful, or would disturb other signals. The firmware version
@@ -326,6 +330,7 @@ Fill this in by hand. Give a copy to the owner and keep one with the DX.
 
 | ID | Measurement | Expected | Result | Pass / fail | Initials |
 |---|---|---|---|---|---|
+| Q0 | Model / board / ROM labels | Plain DX, 1721A, "DX 1.x" (owner says plain DX) | | | |
 | Q1 | U701 socketed? | Yes | | | |
 | Q2 | GEN0* pulses per snare trigger | 3 | | | |
 | Q2 | GEN0* low time | about 1 µs | ______ µs | | |

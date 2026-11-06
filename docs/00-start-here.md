@@ -61,6 +61,10 @@ right-hand end panel. An Oberheim **Stretch** expander adds a 4-voice panel on t
 these keep the 1721A board, so the TimeShift should still fit. Neither product is known to touch
 U701, but you must check by eye that U701 is still on the main board.
 
+> **Owner's answer (2026-11-06): this unit is a plain Oberheim DX.** The rev A board is the right
+> one. Do the check below anyway when the lid is open: it records the board number, the firmware
+> version and whether U701 is socketed, which the later steps need.
+
 **How to check (about 15 minutes):**
 
 1. Switch off and unplug the DX. Remove the two screws on the front and open the lid. (Full
