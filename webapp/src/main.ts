@@ -182,7 +182,7 @@ async function start(): Promise<void> {
     onTick: (t) => {
       if (!scrubbing) scrub.value = String(Math.round((t / engine.total) * 1000));
       scrub.style.setProperty('--fill', `${(t / engine.total) * 100}%`);
-      time.textContent = `${fmt(t)} / ${fmt(engine.total)}`;
+      time.textContent = `${fmt(t / engine.speed)} / ${fmt(engine.total / engine.speed)}`;
     },
     onPlayState: (p) => {
       btnPlay.classList.toggle('playing', p);
@@ -280,7 +280,7 @@ async function start(): Promise<void> {
   const startP = Math.max(0, Math.min(1, Number(q.get('p') ?? 0) || 0));
   if (q.get('labels') === '0') setLabels(false);
   if (q.get('speed')) {
-    engine.setSpeed(Number(q.get('speed')) || 1);
+    engine.setSpeed(Number(q.get('speed')) || 2);
     speed.value = String(engine.speed);
   }
   engine.goto(startIdx, startP);

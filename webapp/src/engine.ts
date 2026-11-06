@@ -40,7 +40,7 @@ export class Engine {
   t = 0;
   index = -1;
   playing = false;
-  speed = 1;
+  speed = 2;
   free = false;
   private wasPlayingBeforeOrbit = false;
   private from = makeState();
