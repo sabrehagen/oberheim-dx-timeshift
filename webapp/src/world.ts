@@ -48,7 +48,7 @@ export class World {
   readonly standoffs = new THREE.Group();
   glb: LoadedGlb | null = null;
   /** Installed pose: left of U701, turned so the J1 edge faces the U701 socket (computed from the layout). */
-  readonly installedPos = new THREE.Vector3(-42, DX.boardTop + STANDOFF, 45);
+  readonly installedPos = new THREE.Vector3(U701_POS.x - 70, DX.boardTop + STANDOFF, U701_POS.z + 40);
   installedRot = Math.PI / 2;
   /** Board-local direction from the board out through the J1 edge. */
   readonly j1Out = new THREE.Vector3(0, 0, 1);
@@ -230,7 +230,7 @@ export class World {
     const c0 = Math.cos(this.installedRot);
     const s0 = Math.sin(this.installedRot);
     const halfX = Math.abs((layout.width / 2) * c0) + Math.abs((layout.height / 2) * s0);
-    this.installedPos.set(U701_POS.x - RIBBON_ROOM - halfX, DX.boardTop + STANDOFF, 45);
+    this.installedPos.set(U701_POS.x - RIBBON_ROOM - halfX, DX.boardTop + STANDOFF, U701_POS.z + 40);
     this.boardScale = Math.min(1.5, Math.max(1, Math.pow((layout.width * layout.height) / (65 * 40), 0.4)));
 
     // Standoffs under the four mounting holes.
@@ -341,7 +341,7 @@ export class World {
     const dx = this.dx;
 
     // Lid
-    dx.lidPivot.rotation.x = -easeInOut(s.lid) * THREE.MathUtils.degToRad(80);
+    dx.lidPivot.rotation.x = -easeInOut(s.lid) * THREE.MathUtils.degToRad(DX.lidOpenDeg);
 
     // Board pose
     this.buildModeNow = buildMode;

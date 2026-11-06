@@ -697,3 +697,17 @@ code {
     font-size: 12.5px;
   }
 }
+
+/* DX model switch (header) */
+#btn-dx .dx-opt {
+  opacity: 0.45;
+}
+#btn-dx .dx-opt.on {
+  opacity: 1;
+  font-weight: 700;
+  color: var(--accent, #ffb347);
+}
+#btn-dx .dx-sep {
+  opacity: 0.4;
+  margin: 0 3px;
+}

@@ -65,12 +65,25 @@ DX's own U701 chip is between them.*
 | Reference | [firmware/README.md](firmware/README.md) | Flashing the Nano, settings, the serial status line |
 | Reference | [hardware/mechanical/README.md](hardware/mechanical/README.md) | Drill template, wiring diagram, continuity sheet |
 
+## Option B: a delayed snare EPROM (idea recorded, not yet documented)
+
+A lighter alternative that needs no new circuit board: burn a copy of the snare sample EPROM
+(U206, a socketed 2764) with a block of silence in front, so the snare plays late by a fixed
+number of milliseconds. The tuning pot keeps working (the lag shrinks slightly when the snare is
+tuned up). Limits: the lag is fixed, not tempo-locked, and the chip has room for roughly 20 to
+60 ms of lead-in before the snare tail is cut (about 200 ms if the SJ2/SJ3 solder jumpers are
+moved). A 27C256 on a small adapter with a two-pole switch could offer four selectable lags.
+The script, procedure and adapter drawing for this option have not been written yet.
+
 ## Interactive 3D walkthrough
 
 There is an interactive 3D walkthrough of the DX, the board, the build and the installation.
 It is live at
 **<https://jacksondelahunt.com/oberheim-dx-timeshift/>** (also reachable as
-<https://sabrehagen.github.io/oberheim-dx-timeshift/>). To run it on your own computer, see
+<https://sabrehagen.github.io/oberheim-dx-timeshift/>). It plays at 2x by default. The DX itself is
+drawn by a simple stylised model (v1). A more faithful model built from the reference photos is
+work in progress and can be viewed with the **DX model** button in the header or by adding
+`?dx=v2` to the address. To run it on your own computer, see
 [webapp/README.md](webapp/README.md).
 
 ![The web walkthrough, overview stage](webapp/screenshots/05-overview.png)

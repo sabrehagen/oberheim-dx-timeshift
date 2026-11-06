@@ -6,6 +6,7 @@ import { World } from './world';
 import { Engine } from './engine';
 import { Inset, fmtRefs, setRefResolver } from './insets';
 import type { Stage } from './stages';
+import { DX_VERSION, DX_VERSIONS } from './dxModel';
 
 const $ = <T extends HTMLElement>(id: string): T => {
   const el = document.getElementById(id);
@@ -60,9 +61,10 @@ async function start(): Promise<void> {
   const world = new World(renderer);
   const badge = $<HTMLDivElement>('model-badge');
   const showBadge = (): void => {
-    badge.textContent =
+    const boardTxt =
       world.info.mode === 'glb' ? 'Board: KiCad 3D model' : world.info.anchors === 'kicad' ? 'Board: procedural parts on the KiCad layout' : 'Board: procedural model';
-    badge.title = `${world.info.note}. Label positions: ${world.info.anchors === 'kicad' ? 'KiCad PCB footprints' : 'procedural layout'}.`;
+    badge.textContent = `${boardTxt} · DX: ${DX_VERSIONS[DX_VERSION].label}`;
+    badge.title = `${world.info.note}. Label positions: ${world.info.anchors === 'kicad' ? 'KiCad PCB footprints' : 'procedural layout'}. DX: ${DX_VERSIONS[DX_VERSION].name}.`;
   };
   await world.buildBoard(import.meta.env.BASE_URL, showBadge);
 
@@ -211,6 +213,21 @@ async function start(): Promise<void> {
     btnLabels.setAttribute('aria-pressed', String(on));
   };
   btnLabels.addEventListener('click', () => setLabels(!engine.labels.enabled));
+
+  // DX model switch: reload with ?dx=v1|v2, keeping the current stage, progress and other parameters.
+  const btnDx = $<HTMLButtonElement>('btn-dx');
+  btnDx.querySelectorAll<HTMLElement>('.dx-opt').forEach((el) => el.classList.toggle('on', el.dataset.v === DX_VERSION));
+  btnDx.setAttribute('aria-label', `DX model: ${DX_VERSIONS[DX_VERSION].label}. Switch to ${DX_VERSION === 'v2' ? 'v1' : 'v2'}`);
+  btnDx.addEventListener('click', () => {
+    const url = new URL(window.location.href);
+    const i = Math.max(0, engine.index);
+    const st = engine.stages[i];
+    const p = Math.max(0, Math.min(1, (engine.t - engine.starts[i]) / st.duration));
+    url.searchParams.set('stage', st.id);
+    url.searchParams.set('p', p.toFixed(3));
+    url.searchParams.set('dx', DX_VERSION === 'v2' ? 'v1' : 'v2');
+    window.location.assign(url.toString());
+  });
   const toggleFs = (): void => {
     if (document.fullscreenElement) void document.exitFullscreen();
     else void document.documentElement.requestFullscreen?.().catch(() => undefined);
@@ -307,6 +324,15 @@ async function start(): Promise<void> {
       engine.pause();
       engine.goto(i, p);
     },
+    /** Free camera at a world position looking at a target (used for the README hero shot). */
+    view: (pos: [number, number, number], tgt: [number, number, number]) => {
+      engine.pause();
+      controls.dispatchEvent({ type: 'start' });
+      camera.position.set(...pos);
+      controls.target.set(...tgt);
+      controls.update();
+    },
+    dx: DX_VERSION,
     ready: true,
   };
   setTimeout(() => $('hint').classList.add('hidden'), 9000);

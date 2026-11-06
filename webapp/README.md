@@ -45,7 +45,39 @@ pnpm exec playwright install chromium   # once
 pnpm build
 pnpm screenshots                        # all shots -> screenshots/*.png
 pnpm screenshots -- 05-overview test    # only shots whose file name contains these words
+pnpm screenshots -- --dx v2             # only one DX model (default: both)
 ```
+
+Shots are written per DX model as `screenshots/v2-*.png` and `screenshots/v1-*.png`, plus
+`screenshots/00-dx-hero.png` (the v2 DX alone, lid closed, framed like the Wikimedia photo).
+`--draw-calls` also prints the DX draw-call count.
+
+## The DX model: v1 (stylised, default) or v2 (faithful, work in progress)
+
+![The procedural Oberheim DX (v2), lid closed](screenshots/00-dx-hero.png)
+
+The Oberheim DX in the 3D view is a **procedural model built from reference photos: no
+third-party assets**. Every part is generated in code (`src/dxModelV2.ts`): the case, the
+wooden end cheeks, pads, faders, buttons, keypad, LEDs, the 7-segment display, the rear-panel
+jacks and DRUM TUNING pots, and the inside (main board with the voice columns, U701–U703,
+the Z80, ROMs and RAMs, C701/C702, the clock-out node R791/Q709 next to the battery B1,
+the transformer). The panel graphics (pinstripes, all legends, the DX logo, the Oberheim
+wordmark), the rear-panel legends and the board silkscreen are canvas textures drawn at
+start-up. Size: 457 × 300 × 127 mm, from the specifications in the DX Owner's Manual
+(2nd edition); the wedge heights are estimated from the photos. Static parts are merged per
+material, so the whole DX costs about 90 draw calls.
+
+The layout was checked against the Wikimedia Commons photos of the DX front panel and
+processor board (CC BY-SA, see `../docs/reference/INDEX.md`).
+
+The original stylised stand-in is kept as **v1** (`src/dxModelV1.ts`) in case it works better
+for a stage. Choose with the **DX model: v1 / v2** button in the header (it reloads the page at
+the same stage and point) or with the URL parameter `?dx=v1` / `?dx=v2` (default v1; v2 is still being checked against the real unit). Nothing
+is stored; the URL is the state. The badge at the bottom left of the 3D view shows which DX
+model is active. `src/dxModel.ts` is the selector: both versions export the same API and
+register the same anchor ids (`dx.u701`, `dx.r791`, `dx.pot.snare`, `dx.jack.clockOut`,
+`dx.delayHole`, the `dx.view.*` camera aim points, ...), so stages, cables and labels work
+with either.
 
 ## The board model: KiCad GLB or procedural
 
@@ -96,7 +128,9 @@ webapp/
   src/stages.ts           THE CONTENT: every stage (text, camera keys, labels, highlights, signals)
   src/insets.ts           2D animated diagrams (beat/tick, timing, mux, queue, ribbon map, ...)
   src/world.ts            builds the scene and applies the stage state (board pose, lid, cables)
-  src/dxModel.ts          stylised Oberheim DX: chassis, lid, main board, U701, rear panel
+  src/dxModel.ts          picks the DX model (?dx=v1|v2) and re-exports its API
+  src/dxModelV1.ts        the original stylised DX (default)
+  src/dxModelV2.ts        faithful procedural Oberheim DX (?dx=v2, work in progress): case, panel, lid, main board, rear panel
   src/boardModel.ts       procedural TimeShift board, part list, nets, KiCad matching
   src/glbBoard.ts         loads and fits the KiCad GLB
   src/cables.ts           ribbon, DIP plug, pot and clock leads, grabbers
