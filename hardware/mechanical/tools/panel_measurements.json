@@ -1,0 +1,86 @@
+{
+  "_readme": "Edit the 'value' fields with YOUR calipers readings, set 'measured' to true, then run: python3 hardware/mechanical/tools/build_all.py. All distances are millimetres, measured on the OUTSIDE of the rear panel, looking at the rear of the DX (BASS pot is on your right). 'below' = towards the bottom of the case, 'right' = towards the BASS pot. Defaults (measured=false) were scaled from a 520-pixel photo (docs/reference/photos/electrongate_dx_back_1a.jpg) and are only good to about +/- 3 mm: the template prints 'ESTIMATES ONLY - DO NOT DRILL' until every starred value is measured.",
+
+  "pitch_hihat_snare_mm": {
+    "value": 20.5, "measured": false, "required": true,
+    "how": "Centre of HI-HAT tuning shaft to centre of SNARE shaft. Easiest: calipers from the LEFT edge of the HI-HAT shaft to the LEFT edge of the SNARE shaft."
+  },
+  "pitch_snare_bass_mm": {
+    "value": 20.5, "measured": false, "required": true,
+    "how": "Centre of SNARE shaft to centre of BASS shaft (left edge to left edge)."
+  },
+  "shaft_dia_mm": {
+    "value": 6.0, "measured": false, "required": true,
+    "how": "Diameter of the existing tuning-pot shafts (calipers). The template cut-outs are this + 1.0 mm so the paper slips over the shafts."
+  },
+  "screw_right_of_snare_mm": {
+    "value": 6.3, "measured": false, "required": true,
+    "how": "Horizontal distance from the SNARE shaft centre to the centre of the screw head just below-right of it (tuning-PCB mounting screw). Negative if the screw is to the left."
+  },
+  "screw_below_snare_mm": {
+    "value": 9.8, "measured": false, "required": true,
+    "how": "Vertical distance from the SNARE shaft centre down to the centre of that screw head."
+  },
+  "screw_head_dia_mm": {
+    "value": 5.5, "measured": false, "required": false,
+    "how": "Diameter of that screw head."
+  },
+  "outputs_label_top_below_snare_mm": {
+    "value": 29.9, "measured": false, "required": true,
+    "how": "Vertical distance from the SNARE shaft centre down to the TOP of the printed 'SNARE' output-jack label text."
+  },
+  "new_hole_below_snare_mm": {
+    "value": 21.0, "measured": false, "required": true,
+    "how": "YOUR CHOICE after measuring: where the new hole centre goes, below the SNARE shaft centre. Pick the middle of the free band between the screw head and the OUTPUTS label, AND inside the free window behind the panel (see the three 'behind panel' values)."
+  },
+  "new_hole_right_of_snare_mm": {
+    "value": 0.0, "measured": true, "required": false,
+    "how": "Horizontal offset of the new hole from the SNARE centre line. 0 = directly below SNARE (the design intent). Change only if something behind the panel is in the way."
+  },
+  "panel_thickness_mm": {
+    "value": 1.5, "measured": false, "required": true,
+    "how": "Rear-panel sheet thickness, calipers at the edge of an existing jack hole. The P160 pot bushing accepts a panel up to 3.6 mm (6.5 mm bushing - 2.5 mm nut - 0.4 mm washer)."
+  },
+  "tuning_pcb_bottom_below_snare_mm": {
+    "value": null, "measured": false, "required": true,
+    "how": "BEHIND the panel (lid open, torch + small steel rule): vertical distance from the SNARE shaft centre line down to the lowest edge of the tuning-pot PCB, its standoffs or any part/wire hanging from it, within 15 mm left/right of the SNARE pot."
+  },
+  "jack_body_top_below_snare_mm": {
+    "value": null, "measured": false, "required": true,
+    "how": "BEHIND the panel: vertical distance from the SNARE shaft centre line down to the TOP of the nearest board-mounted jack body (or anything else rising from the main board) within 15 mm left/right of the planned hole."
+  },
+  "free_depth_behind_panel_mm": {
+    "value": null, "measured": false, "required": true,
+    "how": "BEHIND the panel, at the planned hole position: free depth from the inside face of the panel to the first obstruction. Needs at least 25 mm (findings Q6): pot body 9.5 mm + lugs + wires."
+  },
+
+  "pot": {
+    "model": "TT Electronics / BI P160KNP-0EC15B10K",
+    "description": "16 mm panel pot, 10 k linear, solder lugs, 6 mm slotted shaft 15 mm, M7 x 0.75 bushing",
+    "bushing_hole_dia_mm": 7.5,
+    "bushing_hole_max_dia_mm": 8.0,
+    "_hole_note": "Hole spec 7.5 to 8.0 mm. The datasheet asks for 7.5 +0.2/-0; 8.0 mm (a common step-drill step) is also acceptable because the M7 nut (9.9 mm A/F) and the 12 mm washer cover and clamp it.",
+    "tab_hole_dia_mm": 3.0,
+    "tab_offset_mm": 7.8,
+    "body_dia_mm": 17.0,
+    "body_depth_mm": 9.5,
+    "bushing_len_mm": 6.5,
+    "shaft_len_mm": 15.0,
+    "lug_reach_mm": 16.0,
+    "lug_span_mm": 13.0,
+    "washer_od_mm": 12.0,
+    "nut_af_mm": 9.9,
+    "nut_thk_mm": 2.5,
+    "washer_thk_mm": 0.4,
+    "datasheet": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/P160.pdf (panel layout p10, outline KNP p7)"
+  },
+
+  "lug_direction": {
+    "value": "right",
+    "how": "Which way the pot's solder lugs point, seen from OUTSIDE: right | left | down | up. Sideways (right/left) keeps the pot's height to its 17 mm body, which is what the narrow band between the tuning PCB and the jacks needs. Changing this moves the anti-rotation tab hole."
+  },
+  "drill_tab_hole": {
+    "value": false,
+    "how": "true = drill the 3.0 mm anti-rotation tab hole (visible from outside next to the nut). false = snap the tab off the pot with pliers and rely on the nut + washer (recommended for a clean look). The template always shows the tab hole position, dashed when optional."
+  }
+}

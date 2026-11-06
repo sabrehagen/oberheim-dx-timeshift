@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0c11" />
+    <meta name="description" content="Interactive 3D walkthrough of the DX TimeShift snare-delay modification for the Oberheim DX drum machine." />
+    <title>DX TimeShift: interactive walkthrough</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0c11'/%3E%3Cpath d='M5 22h6l3-12 4 16 3-8h6' stroke='%23ffa23a' stroke-width='2.5' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar">
+        <div class="brand">
+          <span class="logo" aria-hidden="true"></span>
+          <span class="name">DX TimeShift</span>
+          <span class="tag">snare delay for the Oberheim DX · rev A</span>
+        </div>
+        <div class="top-actions">
+          <button id="btn-toc" class="btn ghost" title="All stages (T)" aria-haspopup="true" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" /></svg>
+            <span class="lbl-txt">Stages</span>
+          </button>
+          <button id="btn-labels" class="btn ghost on" title="Show / hide 3D labels (L)" aria-pressed="true">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h11l5 7-5 7H4z" /></svg>
+            <span class="lbl-txt">Labels</span>
+          </button>
+          <button id="btn-fs" class="btn ghost" title="Fullscreen (F)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5" /></svg>
+          </button>
+        </div>
+      </header>
+
+      <main id="main">
+        <div id="viewport">
+          <div id="gl"></div>
+          <div id="css2d"></div>
+          <div id="inset" class="inset hidden"><canvas aria-label="Animated diagram for this stage"></canvas></div>
+          <button id="btn-return" class="btn pill hidden" title="Return to the guided camera (R)">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14 4 9l5-5M4 9h10a6 6 0 0 1 0 12h-3" /></svg>
+            Return to stage view
+          </button>
+          <div id="hint" class="hint">Drag to orbit · scroll to zoom · space to play</div>
+          <div id="model-badge" class="badge" title=""></div>
+          <div id="loading" class="loading"><div class="spinner"></div><div>Building the DX…</div></div>
+          <div id="toc" class="toc hidden" role="menu"></div>
+        </div>
+        <aside id="panel">
+          <div id="inset-dock"></div>
+          <div class="panel-head">
+            <div id="p-chapter" class="chapter"></div>
+            <div id="p-count" class="count"></div>
+          </div>
+          <h1 id="p-title"></h1>
+          <div id="p-warn"></div>
+          <div id="p-body"></div>
+          <div id="p-tbc"></div>
+          <div class="panel-nav">
+            <button id="p-prev" class="btn ghost">← Previous</button>
+            <button id="p-next" class="btn">Next →</button>
+          </div>
+          <p class="foot">
+            Facts and pin numbers: <code>PROJECT_BRIEF.md</code> §3 and <code>docs/research/dx-findings.md</code>.
+            Items marked <span class="tbc-inline">TO BE CONFIRMED</span> must be measured on the bench before relying on them.
+          </p>
+        </aside>
+      </main>
+
+      <footer id="controls">
+        <div class="transport">
+          <button id="btn-prev" class="btn icon" title="Previous stage (←)" aria-label="Previous stage">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5v14M19 5 9 12l10 7z" /></svg>
+          </button>
+          <button id="btn-play" class="btn icon primary" title="Play / pause (space)" aria-label="Play">
+            <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z" /></svg>
+            <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" /></svg>
+          </button>
+          <button id="btn-next" class="btn icon" title="Next stage (→)" aria-label="Next stage">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 5v14M5 5l10 7-10 7z" /></svg>
+          </button>
+        </div>
+        <div class="timeline">
+          <div id="markers" class="markers"></div>
+          <input id="scrub" type="range" min="0" max="1000" step="1" value="0" aria-label="Timeline" />
+        </div>
+        <div id="time" class="time">0:00 / 0:00</div>
+        <label class="speed" title="Playback speed">
+          <span class="sr">Speed</span>
+          <select id="speed" aria-label="Playback speed">
+            <option value="0.5">0.5×</option>
+            <option value="0.75">0.75×</option>
+            <option value="1" selected>1×</option>
+            <option value="1.5">1.5×</option>
+            <option value="2">2×</option>
+          </select>
+        </label>
+      </footer>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

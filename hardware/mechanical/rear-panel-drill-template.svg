@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="297mm" height="210mm" viewBox="0 0 297 210">
+<title>DX TimeShift - rear-panel drill template (1:1)</title>
+<rect x="0" y="0" width="297" height="210" fill="#ffffff"/>
+<rect x="14" y="8" width="269" height="194" rx="0" stroke="#111111" stroke-width="0.5" fill="none"/>
+<rect x="17" y="10" width="168" height="8" rx="0" stroke="#c8102e" stroke-width="0.6" fill="#fff1f1"/>
+<text x="19" y="15.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="3.3" text-anchor="start" font-weight="bold" fill="#c8102e">PRINT AT 100 % (ACTUAL SIZE, NOT 'FIT TO PAGE') — check the 50 mm scale bar</text>
+<rect x="17" y="19.5" width="168" height="8" rx="0" stroke="#e06c00" stroke-width="0.6" fill="#fff6ec"/>
+<text x="19" y="25.4" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="3.3" text-anchor="start" font-weight="bold" fill="#e06c00">CONFIRM CLEARANCE BEHIND PANEL BEFORE DRILLING (findings Q6)</text>
+<text x="19" y="33" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.8" text-anchor="start" font-weight="bold" fill="#c8102e">STATUS: ESTIMATES ONLY — DO NOT DRILL (11 values not measured yet)</text>
+<text x="28.5" y="42.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.2" text-anchor="start" font-weight="bold" fill="#111111">VIEW FROM OUTSIDE (REAR OF THE DX) · TOP OF PANEL ↑ · PERC, CYMBAL, TOMS are further left</text>
+<rect x="28.5" y="45" width="88" height="60" rx="0" stroke="#111111" stroke-width="0.3" fill="none" stroke-dasharray="2.5 1.2"/>
+<line x1="30.5" y1="66" x2="114.5" y2="66" stroke="#7a7a7a" stroke-width="0.13" fill="none" stroke-dasharray="4 1 0.8 1"/>
+<line x1="66" y1="49" x2="66" y2="103" stroke="#7a7a7a" stroke-width="0.13" fill="none" stroke-dasharray="4 1 0.8 1"/>
+<circle cx="45.5" cy="66" r="3.5" stroke="#111111" stroke-width="0.35" fill="#f2f2f2" stroke-dasharray="1.2 0.6"/>
+<line x1="40" y1="66" x2="51" y2="66" stroke="#7a7a7a" stroke-width="0.15" fill="none"/>
+<line x1="45.5" y1="60.5" x2="45.5" y2="71.5" stroke="#7a7a7a" stroke-width="0.15" fill="none"/>
+<text x="45.5" y="59.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="middle" font-weight="bold" fill="#111111">HI-HAT</text>
+<circle cx="66" cy="66" r="3.5" stroke="#111111" stroke-width="0.35" fill="#f2f2f2" stroke-dasharray="1.2 0.6"/>
+<line x1="60.5" y1="66" x2="71.5" y2="66" stroke="#7a7a7a" stroke-width="0.15" fill="none"/>
+<line x1="66" y1="60.5" x2="66" y2="71.5" stroke="#7a7a7a" stroke-width="0.15" fill="none"/>
+<text x="66" y="59.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="middle" font-weight="bold" fill="#111111">SNARE</text>
+<circle cx="86.5" cy="66" r="3.5" stroke="#111111" stroke-width="0.35" fill="#f2f2f2" stroke-dasharray="1.2 0.6"/>
+<line x1="81" y1="66" x2="92" y2="66" stroke="#7a7a7a" stroke-width="0.15" fill="none"/>
+<line x1="86.5" y1="60.5" x2="86.5" y2="71.5" stroke="#7a7a7a" stroke-width="0.15" fill="none"/>
+<text x="86.5" y="59.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="middle" font-weight="bold" fill="#111111">BASS</text>
+<circle cx="72.3" cy="75.8" r="2.75" stroke="#7a7a7a" stroke-width="0.3" fill="none" stroke-dasharray="1 0.6"/>
+<line x1="71.1" y1="75.8" x2="73.5" y2="75.8" stroke="#7a7a7a" stroke-width="0.12" fill="none"/>
+<line x1="72.3" y1="74.6" x2="72.3" y2="77" stroke="#7a7a7a" stroke-width="0.12" fill="none"/>
+<text x="75.85" y="75.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#7a7a7a">existing</text>
+<text x="75.85" y="77.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#7a7a7a">screw</text>
+<line x1="30.5" y1="95.9" x2="114.5" y2="95.9" stroke="#7a7a7a" stroke-width="0.25" fill="none" stroke-dasharray="1.2 0.8"/>
+<text x="30.5" y="94.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#7a7a7a">top of OUTPUTS label text</text>
+<circle cx="66" cy="87" r="12" stroke="#e06c00" stroke-width="0.25" fill="none" stroke-dasharray="2 1"/>
+<circle cx="66" cy="87" r="8.5" stroke="#1f5fbf" stroke-width="0.25" fill="none" stroke-dasharray="1.2 0.8"/>
+<polyline points="71.477,93.5 82,93.5 82,80.5 71.477,80.5" stroke="#1f5fbf" stroke-width="0.25" fill="none" stroke-dasharray="1.2 0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="66" cy="87" r="6" stroke="#7a7a7a" stroke-width="0.15" fill="none" stroke-dasharray="0.5 0.5"/>
+<circle cx="66" cy="87" r="3.75" stroke="#c8102e" stroke-width="0.45" fill="#ffe3e3"/>
+<circle cx="66" cy="87" r="4" stroke="#c8102e" stroke-width="0.15" fill="none" stroke-dasharray="0.6 0.4"/>
+<line x1="59.25" y1="87" x2="72.75" y2="87" stroke="#c8102e" stroke-width="0.2" fill="none"/>
+<line x1="66" y1="80.25" x2="66" y2="93.75" stroke="#c8102e" stroke-width="0.2" fill="none"/>
+<circle cx="66" cy="87" r="0.35" stroke="#c8102e" stroke-width="0.1" fill="#c8102e"/>
+<circle cx="66" cy="94.8" r="1.5" stroke="#c8102e" stroke-width="0.35" fill="none" stroke-dasharray="0.7 0.5"/>
+<line x1="63.5" y1="94.8" x2="68.5" y2="94.8" stroke="#c8102e" stroke-width="0.12" fill="none"/>
+<line x1="66" y1="92.3" x2="66" y2="97.3" stroke="#c8102e" stroke-width="0.12" fill="none"/>
+<rect x="27" y="82.5" width="25" height="9" rx="0" stroke="#6a3d9a" stroke-width="0.2" fill="none" stroke-dasharray="1 0.6"/>
+<text x="39.5" y="86.3" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="middle" font-weight="bold" fill="#6a3d9a">SNARE DELAY</text>
+<text x="39.5" y="90" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.4" text-anchor="middle" font-weight="normal" fill="#6a3d9a">0 ◄──► 1 BEAT</text>
+<line x1="45.5" y1="61.5" x2="45.5" y2="51.5" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="66" y1="61.5" x2="66" y2="51.5" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="45.5" y1="53" x2="66" y2="53" stroke="#111111" stroke-width="0.18" fill="none"/>
+<polygon points="45.5,53 47.7,52.296 47.7,53.704" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<polygon points="66,53 63.8,53.704 63.8,52.296" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<text x="55.75" y="52.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.5" text-anchor="middle" font-weight="normal" fill="#111111">20.5 *</text>
+<line x1="66" y1="61.5" x2="66" y2="51.5" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="86.5" y1="61.5" x2="86.5" y2="51.5" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="66" y1="53" x2="86.5" y2="53" stroke="#111111" stroke-width="0.18" fill="none"/>
+<polygon points="66,53 68.2,52.296 68.2,53.704" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<polygon points="86.5,53 84.3,53.704 84.3,52.296" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<text x="76.25" y="52.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.5" text-anchor="middle" font-weight="normal" fill="#111111">20.5 *</text>
+<line x1="91" y1="66" x2="100" y2="66" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="70.75" y1="87" x2="100" y2="87" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="98.5" y1="66" x2="98.5" y2="87" stroke="#111111" stroke-width="0.18" fill="none"/>
+<polygon points="98.5,66 99.204,68.2 97.796,68.2" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<polygon points="98.5,87 97.796,84.8 99.204,84.8" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<text x="97.6" y="76.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.5" text-anchor="middle" font-weight="normal" fill="#111111" transform="rotate(-90 97.6 76.5)">21.0 *</text>
+<line x1="100" y1="66" x2="108" y2="66" stroke="#7a7a7a" stroke-width="0.13" fill="none"/>
+<line x1="113.5" y1="95.9" x2="105" y2="95.9" stroke="#7a7a7a" stroke-width="0.13" fill="none"/>
+<line x1="106.5" y1="66" x2="106.5" y2="95.9" stroke="#7a7a7a" stroke-width="0.18" fill="none"/>
+<polygon points="106.5,66 107.204,68.2 105.796,68.2" stroke="#7a7a7a" stroke-width="0.05" fill="#7a7a7a"/>
+<polygon points="106.5,95.9 105.796,93.7 107.204,93.7" stroke="#7a7a7a" stroke-width="0.05" fill="#7a7a7a"/>
+<text x="105.6" y="80.95" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.2" text-anchor="middle" font-weight="normal" fill="#7a7a7a" transform="rotate(-90 105.6 80.95)">29.9 *</text>
+<line x1="66.6" y1="90.75" x2="84" y2="109" stroke="#c8102e" stroke-width="0.15" fill="none"/>
+<polygon points="66.6,90.75 68.259,91.655 67.425,92.45" stroke="#c8102e" stroke-width="0.05" fill="#c8102e"/>
+<text x="84.5" y="110" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.4" text-anchor="start" font-weight="bold" fill="#c8102e">NEW HOLE Ø7.5–8.0 mm (pot BI P160KNP-0EC15B10K)</text>
+<line x1="65.4" y1="96.3" x2="84" y2="113" stroke="#c8102e" stroke-width="0.12" fill="none"/>
+<text x="84.5" y="113.6" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#c8102e">tab hole Ø3.0, 7.8 mm from centre — optional (or snap the tab off the pot)</text>
+<rect x="16.8" y="49" width="2.4" height="10" rx="0" stroke="#111111" stroke-width="0.15" fill="#111111"/>
+<rect x="16.8" y="59" width="2.4" height="10" rx="0" stroke="#111111" stroke-width="0.15" fill="#ffffff"/>
+<rect x="16.8" y="69" width="2.4" height="10" rx="0" stroke="#111111" stroke-width="0.15" fill="#111111"/>
+<rect x="16.8" y="79" width="2.4" height="10" rx="0" stroke="#111111" stroke-width="0.15" fill="#ffffff"/>
+<rect x="16.8" y="89" width="2.4" height="10" rx="0" stroke="#111111" stroke-width="0.15" fill="#111111"/>
+<text x="19.8" y="49.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">0</text>
+<text x="19.8" y="59.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">10</text>
+<text x="19.8" y="69.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">20</text>
+<text x="19.8" y="79.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">30</text>
+<text x="19.8" y="89.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">40</text>
+<text x="19.8" y="99.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">50</text>
+<text x="16.8" y="103" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">mm</text>
+<text x="19" y="118.4" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.3" text-anchor="start" font-weight="bold" fill="#111111">SCALE CHECK: both bars (this one and the vertical one on the left) must measure exactly 50.0 mm</text>
+<rect x="19" y="120.8" width="10" height="2.4" rx="0" stroke="#111111" stroke-width="0.15" fill="#111111"/>
+<rect x="29" y="120.8" width="10" height="2.4" rx="0" stroke="#111111" stroke-width="0.15" fill="#ffffff"/>
+<rect x="39" y="120.8" width="10" height="2.4" rx="0" stroke="#111111" stroke-width="0.15" fill="#111111"/>
+<rect x="49" y="120.8" width="10" height="2.4" rx="0" stroke="#111111" stroke-width="0.15" fill="#ffffff"/>
+<rect x="59" y="120.8" width="10" height="2.4" rx="0" stroke="#111111" stroke-width="0.15" fill="#111111"/>
+<text x="19" y="126.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="middle" font-weight="normal" fill="#111111">0</text>
+<text x="29" y="126.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="middle" font-weight="normal" fill="#111111">10</text>
+<text x="39" y="126.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="middle" font-weight="normal" fill="#111111">20</text>
+<text x="49" y="126.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="middle" font-weight="normal" fill="#111111">30</text>
+<text x="59" y="126.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="middle" font-weight="normal" fill="#111111">40</text>
+<text x="69" y="126.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="middle" font-weight="normal" fill="#111111">50</text>
+<text x="71" y="122.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">mm</text>
+<text x="19" y="132.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="start" font-weight="bold" fill="#111111">HOW TO USE</text>
+<text x="19" y="136.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111">1</text>
+<text x="22.5" y="136.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Measure the starred (*) values (README checklist), regenerate, print at 100 %, check both bars.</text>
+<text x="19" y="138.95" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111">2</text>
+<text x="22.5" y="138.95" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Mains OFF and unplugged. Open the lid. Behind the SNARE pot, the blue pot body and the orange</text>
+<text x="19" y="141.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111"></text>
+<text x="22.5" y="141.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Ø24 keep-out must be clear of the tuning PCB, its screws, jack bodies and wires.</text>
+<text x="19" y="144.65" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111">3</text>
+<text x="22.5" y="144.65" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Cut along the dashed line and cut out the three shaft circles. Slip the template over the</text>
+<text x="19" y="147.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111"></text>
+<text x="22.5" y="147.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">HI-HAT, SNARE and BASS shafts; the screw circle and label line must line up too. Tape it.</text>
+<text x="19" y="150.35" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111">4</text>
+<text x="22.5" y="150.35" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Cover the main board inside with paper and tape: steel swarf on the board causes shorts.</text>
+<text x="19" y="153.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111">5</text>
+<text x="22.5" y="153.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Centre-punch the red cross. Pilot Ø3 mm, then Ø7.5 mm drill or step drill to 8 mm (7.5–8.0 OK).</text>
+<text x="19" y="156.05" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111">6</text>
+<text x="22.5" y="156.05" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Tab hole only if you chose to drill it. Deburr both sides. Vacuum up every bit of swarf.</text>
+<text x="19" y="158.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#111111">7</text>
+<text x="22.5" y="158.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="normal" fill="#111111">Fit the pot: washer + nut outside, lugs pointing as drawn. Tighten firmly, not hard.</text>
+<rect x="18" y="172" width="62" height="24.4" rx="0" stroke="#111111" stroke-width="0.3" fill="#ffffff"/>
+<text x="19.5" y="175.4" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="bold" fill="#111111">LEGEND</text>
+<line x1="20" y1="178.39" x2="30" y2="178.39" stroke="#c8102e" stroke-width="0.5" fill="none"/>
+<text x="32" y="179.02" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">drill: new hole Ø7.5 (dashed: max Ø8.0)</text>
+<line x1="20" y1="181.54" x2="30" y2="181.54" stroke="#111111" stroke-width="0.5" fill="none" stroke-dasharray="2.5 1.2"/>
+<text x="32" y="182.17" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">cut line; existing-shaft cut-outs</text>
+<line x1="20" y1="184.69" x2="30" y2="184.69" stroke="#1f5fbf" stroke-width="0.5" fill="none" stroke-dasharray="1.2 0.8"/>
+<text x="32" y="185.32" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">pot body + lugs behind the panel</text>
+<line x1="20" y1="187.84" x2="30" y2="187.84" stroke="#e06c00" stroke-width="0.5" fill="none" stroke-dasharray="2 1"/>
+<text x="32" y="188.47" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">Ø24 keep-out behind the panel (Q6)</text>
+<line x1="20" y1="190.99" x2="30" y2="190.99" stroke="#7a7a7a" stroke-width="0.5" fill="none" stroke-dasharray="1.2 0.8"/>
+<text x="32" y="191.62" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">existing feature, use it to align</text>
+<line x1="20" y1="194.14" x2="30" y2="194.14" stroke="#6a3d9a" stroke-width="0.5" fill="none" stroke-dasharray="1 0.6"/>
+<text x="32" y="194.77" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">suggested label (9 mm tape)</text>
+<text x="84" y="175.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">Dimensions in mm. Origin = SNARE shaft centre.</text>
+<text x="84" y="178.05" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">Seen from OUTSIDE: the BASS pot is on the right.</text>
+<text x="84" y="180.6" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">* = estimated from a photo. Measure, then regenerate.</text>
+<text x="84" y="183.15" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">Pot lugs: 1 (CCW) → J2-1 GND, 2 → J2-2 wiper,</text>
+<text x="84" y="185.7" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">3 (CW) → J2-3 +5 V (see wiring-diagram.pdf).</text>
+<text x="84" y="188.25" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.8" text-anchor="start" font-weight="normal" fill="#111111">Regenerate: python3 tools/build_all.py (README.md).</text>
+<text x="162" y="37" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="start" font-weight="bold" fill="#111111">POT BEHIND THE PANEL — side view, scale 2:1</text>
+<text x="162" y="40.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#7a7a7a">TT Electronics / BI P160KNP-0EC15B10K — 16 mm panel pot</text>
+<rect x="197" y="45" width="3" height="42" rx="0" stroke="#111111" stroke-width="0.2" fill="#bdbdbd"/>
+<text x="198.5" y="43.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="middle" font-weight="normal" fill="#111111">panel 1.5 *</text>
+<text x="194" y="90.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="end" font-weight="normal" fill="#7a7a7a">◄ OUTSIDE</text>
+<text x="202" y="90.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#7a7a7a">INSIDE (DX) ►</text>
+<rect x="200" y="49" width="19" height="34" rx="0" stroke="#1f5fbf" stroke-width="0.35" fill="#e8f0fb"/>
+<rect x="216.8" y="83" width="1.2" height="15" rx="0" stroke="#1f5fbf" stroke-width="0.25" fill="#e8f0fb"/>
+<text x="220" y="89" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#1f5fbf">lugs (drawn pointing</text>
+<text x="220" y="91.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#1f5fbf">down in this view)</text>
+<rect x="187" y="59" width="10" height="14" rx="0" stroke="#111111" stroke-width="0.25" fill="#eeeeee"/>
+<rect x="196.2" y="54" width="0.8" height="24" rx="0" stroke="#111111" stroke-width="0.15" fill="#cccccc"/>
+<rect x="191.2" y="56.1" width="5" height="19.8" rx="0" stroke="#111111" stroke-width="0.2" fill="#dddddd"/>
+<rect x="170" y="60" width="17" height="12" rx="0" stroke="#111111" stroke-width="0.25" fill="#f7f7f7"/>
+<line x1="170" y1="66" x2="172.5" y2="66" stroke="#111111" stroke-width="0.35" fill="none"/>
+<line x1="167" y1="66" x2="222" y2="66" stroke="#7a7a7a" stroke-width="0.13" fill="none" stroke-dasharray="4 1 0.8 1"/>
+<line x1="200" y1="48" x2="200" y2="44" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="219" y1="48" x2="219" y2="44" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="200" y1="45.5" x2="219" y2="45.5" stroke="#111111" stroke-width="0.18" fill="none"/>
+<polygon points="200,45.5 202.2,44.796 202.2,46.204" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<polygon points="219,45.5 216.8,46.204 216.8,44.796" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<text x="209.5" y="44.6" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="middle" font-weight="normal" fill="#111111">9.5</text>
+<line x1="220" y1="49" x2="225.5" y2="49" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="220" y1="83" x2="225.5" y2="83" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="224" y1="49" x2="224" y2="83" stroke="#111111" stroke-width="0.18" fill="none"/>
+<polygon points="224,49 224.704,51.2 223.296,51.2" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<polygon points="224,83 223.296,80.8 224.704,80.8" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<text x="227" y="66" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="middle" font-weight="normal" fill="#111111" transform="rotate(-90 227 66)">Ø17</text>
+<line x1="170" y1="73" x2="170" y2="85" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="200" y1="73" x2="200" y2="85" stroke="#111111" stroke-width="0.13" fill="none"/>
+<line x1="170" y1="83.5" x2="200" y2="83.5" stroke="#111111" stroke-width="0.18" fill="none"/>
+<polygon points="170,83.5 172.2,82.796 172.2,84.204" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<polygon points="200,83.5 197.8,84.204 197.8,82.796" stroke="#111111" stroke-width="0.05" fill="#111111"/>
+<text x="185" y="82.6" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="middle" font-weight="normal" fill="#111111">15 shaft</text>
+<text x="232" y="54" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#e06c00">needs ≥ 25 mm free</text>
+<text x="232" y="56.7" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.1" text-anchor="start" font-weight="bold" fill="#e06c00">depth behind panel</text>
+<text x="232" y="59.6" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">(body + lugs + wires)</text>
+<text x="232" y="62.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111"></text>
+<text x="232" y="64.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">max panel 3.6 mm</text>
+<text x="232" y="67.4" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">nut M7×0.75, 9.9 A/F</text>
+<text x="232" y="70" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">washer Ø12 (both supplied)</text>
+<text x="162" y="101" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.4" text-anchor="start" font-weight="bold" fill="#111111">VALUES USED  (* = estimate — measure it, see README)</text>
+<text x="163" y="104.6" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">HI-HAT → SNARE shaft pitch</text>
+<text x="240" y="104.6" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">20.5 *</text>
+<line x1="162" y1="105.4" x2="242" y2="105.4" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="107.25" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">SNARE → BASS shaft pitch</text>
+<text x="240" y="107.25" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">20.5 *</text>
+<line x1="162" y1="108.05" x2="242" y2="108.05" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="109.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">existing shaft Ø</text>
+<text x="240" y="109.9" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">6.0 *</text>
+<line x1="162" y1="110.7" x2="242" y2="110.7" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="112.55" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">new hole below SNARE</text>
+<text x="240" y="112.55" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">21.0 *</text>
+<line x1="162" y1="113.35" x2="242" y2="113.35" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="115.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">new hole right of SNARE</text>
+<text x="240" y="115.2" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#111111">0.0  </text>
+<line x1="162" y1="116" x2="242" y2="116" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="117.85" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">screw right of SNARE</text>
+<text x="240" y="117.85" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">6.3 *</text>
+<line x1="162" y1="118.65" x2="242" y2="118.65" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="120.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">screw below SNARE</text>
+<text x="240" y="120.5" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">9.8 *</text>
+<line x1="162" y1="121.3" x2="242" y2="121.3" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="123.15" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">OUTPUTS label top below SNARE</text>
+<text x="240" y="123.15" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">29.9 *</text>
+<line x1="162" y1="123.95" x2="242" y2="123.95" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="125.8" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">panel thickness</text>
+<text x="240" y="125.8" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">1.5 *</text>
+<line x1="162" y1="126.6" x2="242" y2="126.6" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="128.45" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">behind: tuning-PCB bottom below SNARE</text>
+<text x="240" y="128.45" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">— *</text>
+<line x1="162" y1="129.25" x2="242" y2="129.25" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="131.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">behind: jack-body top below SNARE</text>
+<text x="240" y="131.1" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">— *</text>
+<line x1="162" y1="131.9" x2="242" y2="131.9" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="133.75" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">behind: free depth at the hole</text>
+<text x="240" y="133.75" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="2" text-anchor="end" font-weight="normal" fill="#c8102e">— *</text>
+<line x1="162" y1="134.55" x2="242" y2="134.55" stroke="#d9d9d9" stroke-width="0.12" fill="none"/>
+<text x="163" y="136.4" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2" text-anchor="start" font-weight="normal" fill="#111111">lug direction (seen from outside): right · tab hole: optional</text>
+<text x="162" y="141" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.4" text-anchor="start" font-weight="bold" fill="#111111">AUTOMATIC CHECKS (re-run after measuring)</text>
+<text x="163" y="144.3" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="1.9" text-anchor="start" font-weight="bold" fill="#1d7a3a">OK</text>
+<text x="171" y="144.3" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">Washer (Ø12) to tuning-PCB screw head: 4.1 mm gap</text>
+<text x="163" y="146.9" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="1.9" text-anchor="start" font-weight="bold" fill="#1d7a3a">OK</text>
+<text x="171" y="146.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">Washer to top of OUTPUTS label text: 2.9 mm gap</text>
+<text x="163" y="149.5" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="1.9" text-anchor="start" font-weight="bold" fill="#1d7a3a">OK</text>
+<text x="171" y="149.5" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">Panel 1.5 mm vs. max 3.6 mm for the M7 bushing</text>
+<text x="163" y="152.1" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="1.9" text-anchor="start" font-weight="bold" fill="#c8102e">STOP</text>
+<text x="171" y="152.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">Tuning-PCB bottom edge NOT MEASURED (pot body top at 12.5 mm)</text>
+<text x="163" y="154.7" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="1.9" text-anchor="start" font-weight="bold" fill="#c8102e">STOP</text>
+<text x="171" y="154.7" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">Jack-body top NOT MEASURED (pot body bottom at 29.5 mm)</text>
+<text x="163" y="157.3" font-family="DejaVu Sans Mono, Liberation Mono, Courier New, monospace" font-size="1.9" text-anchor="start" font-weight="bold" fill="#c8102e">STOP</text>
+<text x="171" y="157.3" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.9" text-anchor="start" font-weight="normal" fill="#111111">Free depth behind panel NOT MEASURED (need &gt;= 25 mm)</text>
+<rect x="182" y="167" width="100" height="35" rx="0" stroke="#111111" stroke-width="0.5" fill="none"/>
+<line x1="182" y1="177.5" x2="282" y2="177.5" stroke="#111111" stroke-width="0.25" fill="none"/>
+<line x1="182" y1="188.7" x2="282" y2="188.7" stroke="#111111" stroke-width="0.25" fill="none"/>
+<line x1="216" y1="188.7" x2="216" y2="202" stroke="#111111" stroke-width="0.25" fill="none"/>
+<line x1="244" y1="188.7" x2="244" y2="202" stroke="#111111" stroke-width="0.25" fill="none"/>
+<line x1="262" y1="188.7" x2="262" y2="202" stroke="#111111" stroke-width="0.25" fill="none"/>
+<text x="183.2" y="169.4" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#7a7a7a">PROJECT</text>
+<text x="183.2" y="175.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.941" text-anchor="start" font-weight="bold" fill="#111111">DX TimeShift (snare) for Oberheim DX, board 1721A</text>
+<text x="183.2" y="179.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#7a7a7a">DRAWING</text>
+<text x="183.2" y="187.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="3.333" text-anchor="start" font-weight="bold" fill="#111111">Rear-panel drill template, SNARE DELAY pot</text>
+<text x="183.2" y="191.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#7a7a7a">DWG NO.</text>
+<text x="183.2" y="200.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="start" font-weight="bold" fill="#111111">DXTS-MECH-001</text>
+<text x="217.2" y="191.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#7a7a7a">SCALE</text>
+<text x="217.2" y="200.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.4" text-anchor="start" font-weight="bold" fill="#111111">1:1 (side view 2:1)</text>
+<text x="245.2" y="191.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#7a7a7a">REV</text>
+<text x="245.2" y="200.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="start" font-weight="bold" fill="#111111">A</text>
+<text x="263.2" y="191.1" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="start" font-weight="normal" fill="#7a7a7a">DATE</text>
+<text x="263.2" y="200.2" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="2.6" text-anchor="start" font-weight="bold" fill="#111111">2026-11-06</text>
+<text x="280.8" y="169.4" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="end" font-weight="normal" fill="#7a7a7a">SHEET 1 / 1   UNITS mm</text>
+<text x="280.8" y="179.9" font-family="DejaVu Sans, Liberation Sans, Arial, Helvetica, sans-serif" font-size="1.7" text-anchor="end" font-weight="normal" fill="#7a7a7a">A4 landscape · fits US Letter</text>
+</svg>

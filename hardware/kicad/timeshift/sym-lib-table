@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "timeshift")(type "KiCad")(uri "${KIPRJMOD}/timeshift.kicad_sym")(options "")(descr "DX TimeShift project symbols"))
+)

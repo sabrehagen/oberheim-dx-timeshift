@@ -1,0 +1,26 @@
+{
+  "name": "dx-timeshift-webapp",
+  "private": true,
+  "version": "0.1.0",
+  "description": "DX TimeShift (snare) - interactive 3D walkthrough of the Oberheim DX snare delay modification",
+  "type": "module",
+  "scripts": {
+    "sync-model": "node scripts/sync-model.mjs",
+    "dev": "node scripts/sync-model.mjs && vite",
+    "build": "node scripts/sync-model.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "playwright": "^1.64.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  },
+  "packageManager": "pnpm@12.16.1"
+}

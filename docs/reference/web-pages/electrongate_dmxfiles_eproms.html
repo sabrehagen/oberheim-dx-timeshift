@@ -1,0 +1,629 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>EPROM Images</title>
+<META name="description" content="Oberheim DMX/DX EPROM images">
+</head>
+<body bgcolor="#D8E8E0" link="#000080" vlink="#800000" text="#000000">
+
+<h2>DMX and DX EPROM Images</h2>
+
+<p>
+These files are exact binary images of the original Oberheim drum sound chips, 
+suitable for making duplicate EPROMS.  You may download these files for your own personal use.
+</p>
+
+<p>
+I would like to make this collection of sounds more complete, so if you have an Oberheim DMX,  
+DX or Stretch DX with sounds other than those listed here, and would like to contribute to this 
+archive, please contact me by <a href="mailto:pjwhite@electrongate.com?subject=DMX Files">e-mail</a>.
+</p>
+
+<p><em>Thanks to Brad Kraft for 
+supplying many of the DX sound images!</em></p>
+
+<p>
+Download the files listed in the <strong>Download</strong> column and program them onto the 
+type of EPROMs indicated.  (In most web browsers, you can right-click or hold down the shift key while you 
+click the link to bring up a &quot;Save As&quot; menu).
+To preview the sounds, click on the link in the <strong>WAV File</strong> column to play 
+WAV file versions of the sounds.  <em>Note: The WAV files were converted directly from the binary 
+EPROM files, and do not have any filtering or envelope effects which you would hear when listening 
+to the audio output of the DMX.</em>
+</p>
+
+<p><b>Notes</b><br>
+Shorter sounds can be used on larger EPROMs by filling unused space in 
+the EPROM with zeroes (silence).  Single EPROM sounds can be used in a 
+DMX or DX multi-EPROM cymbal voice by filling the unused EPROM sockets 
+with "silent" EPROMs, filled entirely with zeroes.  If you leave the 
+unused sockets empty, there will be a lound thump at the end of the 
+sound.  You should be able 
+to use your device programmer software to create such a silent EPROM 
+(which is not the same as an erased EPROM, since the erased state of an 
+EPROM is to have all byte locations filled with 0xFF).  But for 
+convenience, two silent bin files are listed at the end of this file.
+
+<p>Longer sounds on a smaller EPROM are possible, but the sound will be 
+truncated and probably not sound very good.
+
+ <h3>Stock DMX Sounds</h3>
+
+<table border=1>
+<tr>
+<td><strong>Description</td></strong>
+<td><strong>EPROM</td></strong>
+<td><strong>File size</td></strong>
+<td><strong>Download file</td></strong>
+<td><strong>WAV File 1</td></strong>
+<td><strong>WAV File 2</td></strong>
+</tr>
+
+<tr>
+<td>DMX Kick</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="21KICK.BIN">21KICK.BIN</a></td>
+<td><a href="21KICK.wav">Kick</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Snare</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="SNARE6.BIN">SNARE6.BIN</a></td>
+<td><a href="SNARE6.wav">Snare</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Hi-Hat</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="HAT1A.BIN">HAT1A.BIN</a></td>
+<td><a href="HAT1A.wav">Hi-Hat</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Small Toms *</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="STOM5.BIN">STOM5.BIN</a></td>
+<td><a href="STOM5.wav">Small Tom</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Large Toms *</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="SFLTOM2.BIN">SFLTOM2.BIN</a></td>
+<td><a href="SFLTOM2.wav">Large Tom</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Percussion 1 - Tambourine/Rimshot</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="STIK.BIN">STIK.BIN</a></td>
+<td><a href="STIK_A.wav">Tambourine</a></td>
+<td><a href="STIK_B.wav">Rimshot</a></td>
+</tr>
+
+<tr>
+<td>DMX Percussion 2 - Shaker/Claps</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="SHAKE6.BIN">SHAKE6.BIN</a></td>
+<td><a href="SHAKE6B.wav">Shaker</a></td>
+<td><a href="SHAKE6A.wav">Handclaps</a></td>
+</tr>
+
+</table>
+* Later DMX models used the &quot;<strong>DX Tom</strong>&quot; sample in 
+1675/1677 
+voice cards for both Tom slots; see below.
+
+<h3>Standard DMX Cymbals</h3>
+
+<table border=1>
+<tr>
+<td><strong>Description</td></strong>
+<td><strong>EPROM</td></strong>
+<td><strong>File size</td></strong>
+<td><strong>Download file</td></strong>
+<td><strong>WAV File</td></strong>
+</tr>
+
+<tr>
+<td>DMX Ride2A 1 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="RIDE2A1.BIN">RIDE2A1.BIN</a></td>
+<td><a href="RIDE2A.wav">Ride Cymbal</a></td>
+</tr>
+
+<tr>
+<td>DMX Ride2A 2 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="RIDE2A2.BIN">RIDE2A2.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Ride2A 3 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="RIDE2A3.BIN">RIDE2A3.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Ride2A 4 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="RIDE2A4.BIN">RIDE2A4.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Crash 1 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="CRASH1.BIN">CRASH1.BIN</a></td>
+<td><a href="CRASH.wav">Crash Cymbal</a></td>
+</tr>
+
+<tr>
+<td>DMX Crash 2 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="CRASH2.BIN">CRASH2.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Crash 3 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="CRASH3.BIN">CRASH3.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Crash 4 of 4</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="CRASH4.BIN">CRASH4.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+</table>
+
+<h3>New DMX Cymbals/DX Cymbals</h3>
+
+<p>
+The following sounds are from a later version of the DMX cymbal card.  
+These are the same cymbal sounds used in the Oberheim DX.
+</p>
+
+<table border=1>
+<tr>
+<td><strong>Description</td></strong>
+<td><strong>EPROM</td></strong>
+<td><strong>File size</td></strong>
+<td><strong>Download file</td></strong>
+<td><strong>WAV File</td></strong>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Ride 1 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="PERID50.BIN">PERID50.BIN</a></td>
+<td><a href="PERIDE.wav">Ride Cymbal</a></td>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Ride 2 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="PERID51.BIN">PERID51.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Ride 3 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="PERID52.BIN">PERID52.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Ride 4 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="PERID53.BIN">PERID53.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Crash 1 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXCR1F0.BIN">DXCR1F0.BIN</a></td>
+<td><a href="DXCRASH.wav">Crash Cymbal</a></td>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Crash 2 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXCR1F1.BIN">DXCR1F1.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Crash 3 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXCR1F2.BIN">DXCR1F2.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DMX Cymbal/3 Crash 4 of 4</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXCR1F3.BIN">DXCR1F3.BIN</a></td>
+<td>&nbsp;</td>
+</tr>
+
+</table>
+
+<h3>Stock DX Sounds</h3>
+<table border=1>
+<tr>
+<td><strong>Description</td></strong>
+<td><strong>EPROM</td></strong>
+<td><strong>File size</td></strong>
+<td><strong>Download file</td></strong>
+<td><strong>WAV File 1</td></strong>
+<td><strong>WAV File 2</td></strong>
+</tr>
+
+<tr>
+<td>Kick 64 (Same sound as DMX Kick)</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="KICK64.BIN">KICK64.BIN</a></td>
+<td><a href="KICK64.wav">Kick 64</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Snare</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXSNARE.BIN">DXSNARE.BIN</a></td>
+<td><a href="dxsnare.wav">DX Snare</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Hi-Hat</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXHATS.BIN">DXHATS.BIN</a></td>
+<td><a href="dxhats.wav">Hi-Hat</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Tom</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXTOM.BIN">DXTOM.BIN</a></td>
+<td><a href="DXTOM.wav">DX Tom</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Shake</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="DXSHAKE.BIN">DXSHAKE.BIN</a></td>
+<td><a href="DXCLAP.wav">Handclap</a></td>
+<td><a href="DXSHK.wav">Shaker</a></td>
+</tr>
+
+</table>
+
+<h3>Other Sounds</h3>
+
+<table border=1>
+<tr>
+<td><strong>Description</td></strong>
+<td><strong>EPROM</td></strong>
+<td><strong>File size</td></strong>
+<td><strong>Download file</td></strong>
+<td><strong>WAV File 1</td></strong>
+<td><strong>WAV File 2</td></strong>
+</tr>
+
+<tr>
+<td>DX Conga</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="CONGA.BIN">CONGA.BIN</a></td>
+<td><a href="conga.wav">Conga</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Fat Snare</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="FATSNARE.BIN">FATSNARE.BIN</a></td>
+<td><a href="fatsnare.wav">Fat Snare</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Reggae Snare</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="REGSNAR.BIN">REGSNAR.BIN</a></td>
+<td><a href="regsnar.wav">Reggae Snare</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Timbale</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="TIMBALE.BIN">TIMBALE.BIN</a></td>
+<td><a href="timbale.wav">Timbale</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Cowbell</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="dxcowbel.bin">dxcowbel.bin</a></td>
+<td><a href="dxcowbel.wav">Cowbell</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Tambourine/Rimshot</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="TAMBRIM.BIN">TAMBRIM.BIN</a></td>
+<td><a href="dxtamb.wav">Tambourine</a></td>
+<td><a href="dxrim.wav">Rimshot</a></td>
+</tr>
+
+<tr>
+<td>DMX Cowbell/Claves</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="COWBCLAV.BIN">COWBCLAV.BIN</a></td>
+<td><a href="COWBELL.wav">Cowbell</a></td>
+<td><a href="CLAVES.wav">Claves</a></td>
+</tr>
+
+<tr>
+<td>DMX Click/Clap</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="CLIKCLAP.BIN">CLIKCLAP.BIN</a></td>
+<td><a href="CLIK.wav">Click</a></td>
+<td><a href="CLAP.wav">Handclap</a></td>
+</tr>
+
+<tr>
+<td>DMX Old style Shaker/Claps</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="SHAKE1.BIN">SHAKE1.BIN</a></td>
+<td><a href="SHAKE1B.wav">Old Shaker</a></td>
+<td><a href="SHAKE1A.wav">Old Handclaps</a></td>
+</tr>
+
+<tr>
+<td>Conga</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="OLCNGA.BIN">OLCNGA.BIN</a></td>
+<td><a href="OLCNGA.wav">Conga 1</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Claves (4K): Longer sample than standard</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="CLAVE915.BIN">CLAVE915.BIN</a></td>
+<td><a href="CLAVE915.wav">Claves</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Tom 1 of 2</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="DXTOMA.BIN">DXTOMA.BIN</a></td>
+<td><a href="DXTOM.wav">DX Tom</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>DX Tom 2 of 2</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="DXTOMB.BIN">DXTOMB.BIN</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Beat Kick</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="beatkick.bin">beatkick.bin</a></td>
+<td><a href="beatkick.wav">Beat Kick</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Beat Snare</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="beatsnar.bin">beatsnar.bin</a></td>
+<td><a href="beatsnar.wav">Beat Snare</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Punch</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="punch.bin">punch.bin</a></td>
+<td><a href="punch.wav">Punch</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Bones</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="BONES.BIN">BONES.BIN</a></td>
+<td><a href="BONES.wav">Bones</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Shot</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="SHOT.BIN">SHOT.BIN</a></td>
+<td><a href="SHOT.wav">Shot</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Long Noise 1 of 2</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="LNOISE0.BIN">LNOISE0.BIN</a></td>
+<td><a href="LNOISE.wav">LNoise</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Long Noise 2 of 2</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="LNOISE1.BIN">LNOISE1.BIN</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Long Hi Hat 1 of 2</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="LONGHAT0.BIN">LONGHAT0.BIN</a></td>
+<td><a href="LONGHAT.wav">Longhat</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Long Hi Hat 2 of 2</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="LONGHAT1.BIN">LONGHAT1.BIN</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Scratch</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="SCRATCH.BIN">SCRATCH.BIN</a></td>
+<td><a href="SCRATCH.wav">Scratch</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Electric Kick</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="ELKICK3.BIN">ELKICK3.BIN</a></td>
+<td><a href="ELKICK3.wav">ElKick3</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Electric Snare</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="ELECSNAR.BIN">ELECSNAR.BIN</a></td>
+<td><a href="electricsnare.wav">Electric Snare</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Electric Snare 3</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="ELSNAR3.BIN">ELSNAR3.BIN</a></td>
+<td><a href="ELSNAR3.wav">ElSnar3</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Electric Tom 3</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="ELTOM3.BIN">ELTOM3.BIN</a></td>
+<td><a href="ELTOM3.wav">ElTom3</a></td>
+<td>&nbsp;</td>
+</tr>
+
+<tr>
+<td>Silence (4k)</td>
+<td>2732</td>
+<td>4096 bytes</td>
+<td><a href="silent4k.bin">silent4k.bin</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Silence (8k)</td>
+<td>2764</td>
+<td>8192 bytes</td>
+<td><a href="silent8k.bin">silent8k.bin</a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+
+
+</table>
+
+<hr>
+<p align="center">Last update 2022-02-19</p>
+
+<P ALIGN=CENTER><a href="index.html">The DMX Files home</a></P>
+
+</body>
+</html>

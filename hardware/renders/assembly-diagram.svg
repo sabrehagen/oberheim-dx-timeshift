@@ -1,0 +1,311 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1880" height="1330" viewBox="0 0 1880 1330" font-family="DejaVu Sans, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="1272" font-size="30" font-weight="bold" fill="#123">DX TimeShift rev A — assembly view (top side, all parts through-hole)</text>
+<text x="20" y="1310" font-size="19" fill="#333">Fits Oberheim DX board 1721A (U701). NOT for DXa (U715).  Board 84 x 63 mm, 2 layers.  Solder the lowest parts first: resistors, caps, sockets, headers, connectors.</text>
+<rect x="430" y="250" width="1008" height="756" rx="24" fill="#1f5a32" stroke="#0b2a16" stroke-width="3"/>
+<rect x="831.49" y="303.49" width="61.0499" height="61.0198" rx="4" fill="#e8873a" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="850" cy="334" r="6.6" fill="#e0b040"/>
+<rect x="842.8" y="326.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="874" cy="334" r="6.6" fill="#e0b040"/>
+<text x="862.015" y="338" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">C1 10uF</text>
+<rect x="942.46" y="491.86" width="31.08" height="80.28" rx="4" fill="#e8873a" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="958" cy="502" r="6.6" fill="#e0b040"/>
+<rect x="950.8" y="494.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="958" cy="562" r="6.6" fill="#e0b040"/>
+<text x="958" y="536" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle" transform="rotate(-90 958 532)">C2 100nF</text>
+<rect x="587.86" y="408.46" width="80.28" height="31.08" rx="4" fill="#e8873a" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="598" cy="424" r="6.6" fill="#e0b040"/>
+<rect x="590.8" y="416.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="658" cy="424" r="6.6" fill="#e0b040"/>
+<text x="628" y="428" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">C3 100nF</text>
+<rect x="1142.26" y="704.86" width="80.28" height="31.08" rx="4" fill="#e8873a" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1152.4" cy="720.4" r="6.6" fill="#e0b040"/>
+<rect x="1145.2" y="713.2" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1212.4" cy="720.4" r="6.6" fill="#e0b040"/>
+<text x="1182.4" y="724.4" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">C4 100nF</text>
+<rect x="938.02" y="923.26" width="80.28" height="31.08" rx="4" fill="#e8873a" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="948.16" cy="938.8" r="6.6" fill="#e0b040"/>
+<rect x="940.96" y="931.6" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1008.16" cy="938.8" r="6.6" fill="#e0b040"/>
+<text x="978.16" y="942.8" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">C5 100nF</text>
+<rect x="1278.46" y="575.86" width="31.08" height="80.28" rx="4" fill="#e8873a" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1294" cy="586" r="6.6" fill="#e0b040"/>
+<rect x="1286.8" y="578.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1294" cy="646" r="6.6" fill="#e0b040"/>
+<text x="1294" y="620" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle" transform="rotate(-90 1294 616)">C6 100nF</text>
+<rect x="1241.26" y="443.86" width="31.08" height="80.28" rx="4" fill="#e8873a" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1256.8" cy="454" r="6.6" fill="#e0b040"/>
+<rect x="1249.6" y="446.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1256.8" cy="514" r="6.6" fill="#e0b040"/>
+<text x="1256.8" y="488" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle" transform="rotate(-90 1256.8 484)">C7 1nF</text>
+<circle cx="472" cy="292" r="19.2" fill="#ffffff" stroke="#999"/>
+<circle cx="1396" cy="292" r="19.2" fill="#ffffff" stroke="#999"/>
+<circle cx="472" cy="964" r="19.2" fill="#ffffff" stroke="#999"/>
+<circle cx="1396" cy="964" r="19.2" fill="#ffffff" stroke="#999"/>
+<rect x="917.26" y="309.82" width="342.84" height="113.88" rx="4" fill="#e9e9e9" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="982" cy="382" r="6.6" fill="#e0b040"/>
+<rect x="974.8" y="374.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="982" cy="351.52" r="6.6" fill="#e0b040"/>
+<circle cx="1012.48" cy="382" r="6.6" fill="#e0b040"/>
+<circle cx="1012.48" cy="351.52" r="6.6" fill="#e0b040"/>
+<circle cx="1042.96" cy="382" r="6.6" fill="#e0b040"/>
+<circle cx="1042.96" cy="351.52" r="6.6" fill="#e0b040"/>
+<circle cx="1073.44" cy="382" r="6.6" fill="#e0b040"/>
+<circle cx="1073.44" cy="351.52" r="6.6" fill="#e0b040"/>
+<circle cx="1103.92" cy="382" r="6.6" fill="#e0b040"/>
+<circle cx="1103.92" cy="351.52" r="6.6" fill="#e0b040"/>
+<circle cx="1134.4" cy="382" r="6.6" fill="#e0b040"/>
+<circle cx="1134.4" cy="351.52" r="6.6" fill="#e0b040"/>
+<circle cx="1164.88" cy="382" r="6.6" fill="#e0b040"/>
+<circle cx="1164.88" cy="351.52" r="6.6" fill="#e0b040"/>
+<circle cx="1195.36" cy="382" r="6.6" fill="#e0b040"/>
+<circle cx="1195.36" cy="351.52" r="6.6" fill="#e0b040"/>
+<text x="1088.68" y="364.76" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">J1</text>
+<text x="1088.68" y="382.76" font-size="13" fill="#111111" text-anchor="middle">DX PLUG</text>
+<rect x="1357.66" y="505.06" width="76.08" height="125.88" rx="4" fill="#e9e9e9" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1402" cy="538" r="6.6" fill="#e0b040"/>
+<rect x="1394.8" y="530.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1402" cy="568" r="6.6" fill="#e0b040"/>
+<circle cx="1402" cy="598" r="6.6" fill="#e0b040"/>
+<text x="1395.7" y="566" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle" transform="rotate(-90 1395.7 568)">J2</text>
+<text x="1395.7" y="584" font-size="13" fill="#111111" text-anchor="middle" transform="rotate(-90 1395.7 568)">POT</text>
+<rect x="1357.66" y="367.06" width="76.08" height="95.88" rx="4" fill="#e9e9e9" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1402" cy="400" r="6.6" fill="#e0b040"/>
+<rect x="1394.8" y="392.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1402" cy="430" r="6.6" fill="#e0b040"/>
+<text x="1395.7" y="413" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">J3</text>
+<text x="1395.7" y="431" font-size="13" fill="#111111" text-anchor="middle">CLK</text>
+<rect x="437.62" y="465.22" width="68.16" height="68.16" rx="4" fill="#e9e9e9" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="456.4" cy="484" r="6.6" fill="#e0b040"/>
+<rect x="449.2" y="476.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="486.88" cy="484" r="6.6" fill="#e0b040"/>
+<circle cx="456.4" cy="514.48" r="6.6" fill="#e0b040"/>
+<circle cx="486.88" cy="514.48" r="6.6" fill="#e0b040"/>
+<text x="471.7" y="497.3" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">JP1</text>
+<text x="471.7" y="515.3" font-size="13" fill="#111111" text-anchor="middle">PPQN</text>
+<rect x="826.06" y="443.86" width="31.08" height="142.2" rx="4" fill="#e8cf9c" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="841.6" cy="454" r="6.6" fill="#e0b040"/>
+<rect x="834.4" y="446.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="841.6" cy="575.92" r="6.6" fill="#e0b040"/>
+<text x="841.6" y="518.96" font-size="12" font-weight="bold" fill="#3a2a00" text-anchor="middle" transform="rotate(-90 841.6 514.96)">R1 1k</text>
+<rect x="865.66" y="443.86" width="31.08" height="142.2" rx="4" fill="#e8cf9c" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="881.2" cy="454" r="6.6" fill="#e0b040"/>
+<rect x="874" y="446.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="881.2" cy="575.92" r="6.6" fill="#e0b040"/>
+<text x="881.2" y="518.96" font-size="12" font-weight="bold" fill="#3a2a00" text-anchor="middle" transform="rotate(-90 881.2 514.96)">R2 1k</text>
+<rect x="905.26" y="443.86" width="31.08" height="142.2" rx="4" fill="#e8cf9c" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="920.8" cy="454" r="6.6" fill="#e0b040"/>
+<rect x="913.6" y="446.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="920.8" cy="575.92" r="6.6" fill="#e0b040"/>
+<text x="920.8" y="518.96" font-size="12" font-weight="bold" fill="#3a2a00" text-anchor="middle" transform="rotate(-90 920.8 514.96)">R3 1k</text>
+<rect x="1318.06" y="563.86" width="31.08" height="142.2" rx="4" fill="#e8cf9c" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1333.6" cy="574" r="6.6" fill="#e0b040"/>
+<rect x="1326.4" y="566.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1333.6" cy="695.92" r="6.6" fill="#e0b040"/>
+<text x="1333.6" y="638.96" font-size="12" font-weight="bold" fill="#3a2a00" text-anchor="middle" transform="rotate(-90 1333.6 634.96)">R4 1k</text>
+<rect x="522.46" y="419.86" width="31.08" height="142.2" rx="4" fill="#e8cf9c" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="538" cy="430" r="6.6" fill="#e0b040"/>
+<rect x="530.8" y="422.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="538" cy="551.92" r="6.6" fill="#e0b040"/>
+<text x="538" y="494.96" font-size="12" font-weight="bold" fill="#3a2a00" text-anchor="middle" transform="rotate(-90 538 490.96)">R5 10k</text>
+<rect x="1278.46" y="371.86" width="31.08" height="142.2" rx="4" fill="#e8cf9c" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1294" cy="382" r="6.6" fill="#e0b040"/>
+<rect x="1286.8" y="374.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1294" cy="503.92" r="6.6" fill="#e0b040"/>
+<text x="1294" y="446.96" font-size="12" font-weight="bold" fill="#3a2a00" text-anchor="middle" transform="rotate(-90 1294 442.96)">R6 10k</text>
+<rect x="1318.06" y="407.86" width="31.08" height="142.2" rx="4" fill="#e8cf9c" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1333.6" cy="418" r="6.6" fill="#e0b040"/>
+<rect x="1326.4" y="410.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1333.6" cy="539.92" r="6.6" fill="#e0b040"/>
+<text x="1333.6" y="482.96" font-size="12" font-weight="bold" fill="#3a2a00" text-anchor="middle" transform="rotate(-90 1333.6 478.96)">R7 100k</text>
+<circle cx="478" cy="580" r="20.4" fill="#4d8fd6" stroke="#fff" stroke-width="2"/>
+<circle cx="478" cy="580" r="6.6" fill="#e0b040"/>
+<circle cx="790" cy="388" r="20.4" fill="#4d8fd6" stroke="#fff" stroke-width="2"/>
+<circle cx="790" cy="388" r="6.6" fill="#e0b040"/>
+<circle cx="730" cy="388" r="20.4" fill="#4d8fd6" stroke="#fff" stroke-width="2"/>
+<circle cx="730" cy="388" r="6.6" fill="#e0b040"/>
+<circle cx="664" cy="352" r="20.4" fill="#4d8fd6" stroke="#fff" stroke-width="2"/>
+<circle cx="664" cy="352" r="6.6" fill="#e0b040"/>
+<circle cx="1264" cy="712" r="20.4" fill="#4d8fd6" stroke="#fff" stroke-width="2"/>
+<circle cx="1264" cy="712" r="6.6" fill="#e0b040"/>
+<rect x="980.74" y="496.78" width="246.36" height="123" rx="4" fill="#2b2b2b" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="997.24" cy="604" r="6.6" fill="#e0b040"/>
+<rect x="990.04" y="596.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1027.72" cy="604" r="6.6" fill="#e0b040"/>
+<circle cx="1058.2" cy="604" r="6.6" fill="#e0b040"/>
+<circle cx="1088.68" cy="604" r="6.6" fill="#e0b040"/>
+<circle cx="1119.16" cy="604" r="6.6" fill="#e0b040"/>
+<circle cx="1149.64" cy="604" r="6.6" fill="#e0b040"/>
+<circle cx="1180.12" cy="604" r="6.6" fill="#e0b040"/>
+<circle cx="1210.6" cy="604" r="6.6" fill="#e0b040"/>
+<circle cx="1210.6" cy="512.56" r="6.6" fill="#e0b040"/>
+<circle cx="1180.12" cy="512.56" r="6.6" fill="#e0b040"/>
+<circle cx="1149.64" cy="512.56" r="6.6" fill="#e0b040"/>
+<circle cx="1119.16" cy="512.56" r="6.6" fill="#e0b040"/>
+<circle cx="1088.68" cy="512.56" r="6.6" fill="#e0b040"/>
+<circle cx="1058.2" cy="512.56" r="6.6" fill="#e0b040"/>
+<circle cx="1027.72" cy="512.56" r="6.6" fill="#e0b040"/>
+<circle cx="997.24" cy="512.56" r="6.6" fill="#e0b040"/>
+<text x="1103.92" y="556.28" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">U1</text>
+<text x="1103.92" y="574.28" font-size="13" fill="#ffffff" text-anchor="middle">ORIGINAL U701</text>
+<rect x="536.14" y="702.1" width="549.72" height="214.44" rx="4" fill="#1d5fc4" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1039.6" cy="718" r="6.6" fill="#e0b040"/>
+<rect x="1032.4" y="710.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1009.12" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="978.64" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="948.16" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="917.68" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="887.2" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="856.72" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="826.24" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="795.76" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="765.28" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="734.8" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="704.32" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="673.84" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="643.36" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="612.88" cy="718" r="6.6" fill="#e0b040"/>
+<circle cx="612.88" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="643.36" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="673.84" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="704.32" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="734.8" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="765.28" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="795.76" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="826.24" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="856.72" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="887.2" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="917.68" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="948.16" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="978.64" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="1009.12" cy="900.88" r="6.6" fill="#e0b040"/>
+<circle cx="1039.6" cy="900.88" r="6.6" fill="#e0b040"/>
+<text x="811" y="807.32" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">U2</text>
+<text x="811" y="825.32" font-size="13" fill="#ffffff" text-anchor="middle">ARDUINO NANO</text>
+<rect x="565.9" y="478.78" width="246.36" height="123" rx="4" fill="#2b2b2b" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="582.4" cy="586" r="6.6" fill="#e0b040"/>
+<rect x="575.2" y="578.8" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="612.88" cy="586" r="6.6" fill="#e0b040"/>
+<circle cx="643.36" cy="586" r="6.6" fill="#e0b040"/>
+<circle cx="673.84" cy="586" r="6.6" fill="#e0b040"/>
+<circle cx="704.32" cy="586" r="6.6" fill="#e0b040"/>
+<circle cx="734.8" cy="586" r="6.6" fill="#e0b040"/>
+<circle cx="765.28" cy="586" r="6.6" fill="#e0b040"/>
+<circle cx="795.76" cy="586" r="6.6" fill="#e0b040"/>
+<circle cx="795.76" cy="494.56" r="6.6" fill="#e0b040"/>
+<circle cx="765.28" cy="494.56" r="6.6" fill="#e0b040"/>
+<circle cx="734.8" cy="494.56" r="6.6" fill="#e0b040"/>
+<circle cx="704.32" cy="494.56" r="6.6" fill="#e0b040"/>
+<circle cx="673.84" cy="494.56" r="6.6" fill="#e0b040"/>
+<circle cx="643.36" cy="494.56" r="6.6" fill="#e0b040"/>
+<circle cx="612.88" cy="494.56" r="6.6" fill="#e0b040"/>
+<circle cx="582.4" cy="494.56" r="6.6" fill="#e0b040"/>
+<text x="689.08" y="538.28" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">U3</text>
+<text x="689.08" y="556.28" font-size="13" fill="#ffffff" text-anchor="middle">74HC157</text>
+<rect x="1135.78" y="752.86" width="216" height="123" rx="4" fill="#2b2b2b" fill-opacity="0.92" stroke="#000" stroke-width="1"/>
+<circle cx="1152.4" cy="860.08" r="6.6" fill="#e0b040"/>
+<rect x="1145.2" y="852.88" width="14.4" height="14.4" fill="#ff2a2a"/>
+<circle cx="1182.88" cy="860.08" r="6.6" fill="#e0b040"/>
+<circle cx="1213.36" cy="860.08" r="6.6" fill="#e0b040"/>
+<circle cx="1243.84" cy="860.08" r="6.6" fill="#e0b040"/>
+<circle cx="1274.32" cy="860.08" r="6.6" fill="#e0b040"/>
+<circle cx="1304.8" cy="860.08" r="6.6" fill="#e0b040"/>
+<circle cx="1335.28" cy="860.08" r="6.6" fill="#e0b040"/>
+<circle cx="1335.28" cy="768.64" r="6.6" fill="#e0b040"/>
+<circle cx="1304.8" cy="768.64" r="6.6" fill="#e0b040"/>
+<circle cx="1274.32" cy="768.64" r="6.6" fill="#e0b040"/>
+<circle cx="1243.84" cy="768.64" r="6.6" fill="#e0b040"/>
+<circle cx="1213.36" cy="768.64" r="6.6" fill="#e0b040"/>
+<circle cx="1182.88" cy="768.64" r="6.6" fill="#e0b040"/>
+<circle cx="1152.4" cy="768.64" r="6.6" fill="#e0b040"/>
+<text x="1243.78" y="812.36" font-size="17" font-weight="bold" fill="#ffffff" text-anchor="middle">U4</text>
+<text x="1243.78" y="830.36" font-size="13" fill="#ffffff" text-anchor="middle">74HC14</text>
+<line x1="1090" y1="307.6" x2="1252.5" y2="122" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="1090" cy="307.6" r="5" fill="#c0392b"/>
+<rect x="980" y="40" width="545" height="82" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="990" y="64" font-size="19" font-weight="bold" fill="#111">J1  “DX PLUG”  2x8 shrouded box header</text>
+<text x="990" y="86" font-size="16"  fill="#111">16-way ribbon → DIP-16 IDC plug → DX U701 socket</text>
+<text x="990" y="108" font-size="16"  fill="#111">pin 1 = ▲ mark; silk numbers = DIP pin at the plug</text>
+<line x1="862" y1="304" x2="797" y2="100" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="862" cy="304" r="5" fill="#c0392b"/>
+<rect x="640" y="40" width="314" height="60" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="650" y="64" font-size="19" font-weight="bold" fill="#111">C1  10 µF electrolytic</text>
+<text x="650" y="86" font-size="16"  fill="#111">long lead (+) to the ‘+’ pad</text>
+<line x1="790" y1="365.2" x2="504.75" y2="100" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="790" cy="365.2" r="5" fill="#c0392b"/>
+<rect x="395" y="40" width="219.5" height="60" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="405" y="64" font-size="19" font-weight="bold" fill="#111">TP2  RST2 chip side</text>
+<text x="405" y="86" font-size="16"  fill="#111">(U1 pin 15)</text>
+<line x1="730" y1="365.2" x2="445" y2="200" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="730" cy="365.2" r="5" fill="#c0392b"/>
+<rect x="330" y="140" width="230" height="60" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="340" y="164" font-size="19" font-weight="bold" fill="#111">TP3  RST2 plug side</text>
+<text x="340" y="186" font-size="16"  fill="#111">(mux out → J1 DIP15)</text>
+<line x1="641.2" y1="352" x2="129.75" y2="230" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="641.2" cy="352" r="5" fill="#c0392b"/>
+<rect x="20" y="170" width="219.5" height="60" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="30" y="194" font-size="19" font-weight="bold" fill="#111">TP4  GND</text>
+<text x="30" y="216" font-size="16"  fill="#111">(scope ground clip)</text>
+<line x1="434.8" y1="484" x2="292" y2="472" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="434.8" cy="484" r="5" fill="#c0392b"/>
+<rect x="20" y="420" width="272" height="104" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="30" y="444" font-size="19" font-weight="bold" fill="#111">JP1  PPQN jumper</text>
+<text x="30" y="466" font-size="16"  fill="#111">JP1 open = 96 (plain DX)</text>
+<text x="30" y="488" font-size="16"  fill="#111">JP1 1-2 = 48 (D10)</text>
+<text x="30" y="510" font-size="16"  fill="#111">JP1 3-4 = 24 (D11)</text>
+<line x1="454" y1="580" x2="313" y2="578" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="454" cy="580" r="5" fill="#c0392b"/>
+<rect x="20" y="548" width="293" height="60" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="30" y="572" font-size="19" font-weight="bold" fill="#111">TP1  REPLAY</text>
+<text x="30" y="594" font-size="16"  fill="#111">pulses on each delayed hit</text>
+<line x1="563.2" y1="540.4" x2="334" y2="341" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="563.2" cy="540.4" r="5" fill="#c0392b"/>
+<rect x="20" y="300" width="314" height="82" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="30" y="324" font-size="19" font-weight="bold" fill="#111">U3  74HC157 in DIP-16 socket</text>
+<text x="30" y="346" font-size="16"  fill="#111">bypass/delay multiplexer</text>
+<text x="30" y="368" font-size="16"  fill="#111">notch = left end</text>
+<line x1="533.2" y1="802" x2="334" y2="742" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="533.2" cy="802" r="5" fill="#c0392b"/>
+<rect x="20" y="690" width="314" height="104" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="30" y="714" font-size="19" font-weight="bold" fill="#111">U2  Arduino Nano v3 (5 V)</text>
+<text x="30" y="736" font-size="16"  fill="#111">on 2 x 15-pin female headers</text>
+<text x="30" y="758" font-size="16"  fill="#111">USB end LEFT, parts side up</text>
+<text x="30" y="780" font-size="16"  fill="#111">UNPLUG NANO BEFORE USB !</text>
+<line x1="1436.8" y1="414.4" x2="1460" y2="161" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="1436.8" cy="414.4" r="5" fill="#c0392b"/>
+<rect x="1460" y="120" width="314" height="82" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="1470" y="144" font-size="19" font-weight="bold" fill="#111">J3  “CLK”  JST-XH 2-pin</text>
+<text x="1470" y="166" font-size="16"  fill="#111">1 = DX CLOCK OUT (R791 lead)</text>
+<text x="1470" y="188" font-size="16"  fill="#111">2 = GND</text>
+<line x1="1436.8" y1="568" x2="1460" y2="341" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="1436.8" cy="568" r="5" fill="#c0392b"/>
+<rect x="1460" y="300" width="324.5" height="82" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="1470" y="324" font-size="19" font-weight="bold" fill="#111">J2  “POT”  JST-XH 3-pin</text>
+<text x="1470" y="346" font-size="16"  fill="#111">1 = GND (CCW lug)</text>
+<text x="1470" y="368" font-size="16"  fill="#111">2 = wiper,  3 = +5 V (CW lug)</text>
+<line x1="1230.4" y1="558.4" x2="1460" y2="511" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="1230.4" cy="558.4" r="5" fill="#c0392b"/>
+<rect x="1460" y="470" width="335" height="82" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="1470" y="494" font-size="19" font-weight="bold" fill="#111">U1  DIP-16 socket for the</text>
+<text x="1470" y="516" font-size="16"  fill="#111">ORIGINAL U701 chip (MC14174B)</text>
+<text x="1470" y="538" font-size="16"  fill="#111">from the DX - notch = left end</text>
+<line x1="1288" y1="712" x2="1460" y2="670" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="1288" cy="712" r="5" fill="#c0392b"/>
+<rect x="1460" y="640" width="303.5" height="60" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="1470" y="664" font-size="19" font-weight="bold" fill="#111">TP5  CLK_IN</text>
+<text x="1470" y="686" font-size="16"  fill="#111">conditioned clock (Nano D3)</text>
+<line x1="1355.2" y1="814" x2="1460" y2="821" stroke="#c0392b" stroke-width="2.5"/>
+<circle cx="1355.2" cy="814" r="5" fill="#c0392b"/>
+<rect x="1460" y="780" width="335" height="82" rx="8" fill="#fffbe6" stroke="#c0392b" stroke-width="2"/>
+<text x="1470" y="804" font-size="19" font-weight="bold" fill="#111">U4  74HC14 in DIP-14 socket</text>
+<text x="1470" y="826" font-size="16"  fill="#111">clock Schmitt buffer</text>
+<text x="1470" y="848" font-size="16"  fill="#111">notch = left end (like U1, U3)</text>
+<rect x="430" y="1024" width="560" height="170" rx="8" fill="#f4f8ff" stroke="#36c" stroke-width="2"/>
+<text x="442" y="1048" font-size="16" fill="#123">R1, R2, R3 = 1 kΩ   (series protection U1 → Nano)</text>
+<text x="442" y="1070" font-size="16" fill="#123">R4 = 1 kΩ   (pot filter)</text>
+<text x="442" y="1092" font-size="16" fill="#123">R5 = 10 kΩ  (mux select pull-down = bypass)</text>
+<text x="442" y="1114" font-size="16" fill="#123">R6 = 10 kΩ, R7 = 100 kΩ  (clock input)</text>
+<text x="442" y="1136" font-size="16" fill="#123">C2-C6 = 100 nF ceramic,  C7 = 1 nF ceramic</text>
+<text x="442" y="1158" font-size="16" fill="#123">C4 at U4 pin 14,  C5 just below the Nano 5V/GND pins</text>
+<text x="442" y="1180" font-size="16" fill="#123">red square = pin 1</text>
+</svg>

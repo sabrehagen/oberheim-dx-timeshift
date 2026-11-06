@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>Electrongate DMX MIDI Upgrade Kit Installation</title>
+</head>
+
+<body>
+<h2>Oberheim DMX MIDI Upgrade Installation</h2>
+<p>The Electrongate MIDI Upgrade Kit for the Oberheim DMX drum machine adds MIDI capability and 7000 note capacity 
+to the DMX.  The kit version can be installed by anyone posessing moderate experience in electronic assembly 
+and soldering.  If you don't feel up to the task, you can have the MIDI kit installed professionally by 
+Electrongate for an additional fee.
+<p>But if you're ready to give it a try, these instructions will take you through the process, step by step.
+
+<p>Note: These instructions are for MIDI boards with serial numbers of 
+10-0165 and higher.  For older versions, see <a 
+href="./midi_upgrade_install_old.html">this 
+link</a>. 
+
+<ul>Parts supplied with Electrongate MIDI Kit:
+<li>(1) Assembled and tested MIDI circuit board.
+<li>(4) #6 threaded standoffs.
+<li>(1) MIDI cable assembly with mounting plate and modified right-side 
+walnut end panel (optional).
+<li>(1) Addendum to owner's manual.
+<li>(1) Link to these installation instructions.
+</ul>
+
+<ul>Tools required for installation:
+<li>#2 Phillips screwdriver
+<li>1/4 inch nut driver
+<li>Small flat-blade screwdriver or DIP IC chip puller
+<li>Small diagonal cutters
+<li>X-acto knife with #11 blade
+<li>Soldering iron and rosin-core tin/lead solder
+</ul>
+<img src="images/dmx_midi_board_cable_bent2.jpg" width="390" height="520" 
+title="Electrongate MIDI Board">
+
+<h2>Installation:  Step By Step</h2>
+
+<ol>
+<li>Turn off the power and disconnect the AC power cable from the DMX.
+
+<li>Remove the two screws on the front of the DMX and open the cover.
+
+<li>Remove four screws from the DMX main board as shown below and set them 
+aside.  These will be reused later.
+
+<li>Install the four standoffs provided in place of the screws that were 
+just removed.
+<br><strong>(If your DMX is already equipped with a memory expansion 
+board, 
+remove it. 
+The MIDI upgrade board will take its place, with no loss in 
+sequence capacity).</strong>
+<br>
+<img src="images/dmx_standoff_diag.jpg" width="520" height="390" 
+title="Standoff placement">
+
+<li>Remove <strong>IC 12</strong> (Z-80 CPU) from the DMX main board and 
+set it aside.  Your MIDI board comes with a new Z-80 CPU rated for 
+the higher clock speed used by the MIDI interface.
+<br>
+
+<a name="removing"></a>
+<!-- box around this part -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td bgcolor="#000000">
+<table width="100%" border="0" cellspacing="1" cellpadding="1"><tr><td bgcolor="#FFFFFF">
+<strong>Notes:</strong><br>
+<ul>
+<li>Observe IC polarity -- line up notch in IC with notch in socket.
+<li>IC numbers are printed on the circuit board near each IC.
+<li>Use a small flat blade 
+screwdriver to remove ICs by alternately levering each end up a little at a 
+time. Keep the screwdriver between 
+the IC and the socket; <em>not under the socket</em>.
+<li>Be careful not to bend the pins.  If you do bend any pins, 
+straighten them out before reinstalling the IC.
+</ul>
+</td></tr></table>
+</td></tr></table>
+
+<!-- end box -->
+
+<br>
+<img src="images/dmx_lift_eprom_detail.jpg" width="520" height="390" title="Lift from the left..."><br>
+<img src="images/dmx_lift_eprom_detail2.jpg" width="520" height="390" title="lift from the right">
+
+<li>Remove <strong>IC 20</strong> (74C174 or 40174) from the DMX main board 
+and install it in socket <strong>U3</strong> on the MIDI board.
+
+<li>Remove <strong>IC 23</strong> (4013) from the DMX main board and install 
+it in socket <strong>U4</strong> on the MIDI board.<br>
+<img src="images/dmx_ics_move.jpg" width="808" height="418" title="Relocate ICs 20 and 23">
+
+<li>Remove four RAM ICs and two EPROMs (<strong>IC 13, 14, 15, 16 17 and 
+18</strong>) from the DMX main board.  
+Remove <strong>IC 2</strong> (74LS42) and <strong>IC 3</strong> (4071).  
+These eight parts become surplus and may be discarded.<br>
+<img src="images/dmx_ics_discard.jpg" width="520" height="390" title="Remove ICs 2, 3, 13, 14, 15, 16, 17 and 18"><br>
+Remove the old NiCd battery, which is located to the left of U10.  Please 
+recycle the battery properly. 
+After all the indicated ICs and battery  have been removed, the DMX main 
+board should look 
+like this:<br>
+<img src="images/dmx_board_overview_chips_removed2.jpg" width="520" 
+height="390" title="View of board with ICs removed">
+
+<li>Locate transistor <strong>Q1</strong> (left of IC 12) and using diagonal cutters, 
+snip three leads and discard the transistor.<br>
+<img src="images/dmx_q1_removal2.jpg" width="520" height="390" title="Removing Q1"><br>
+<img src="images/dmx_q1_removed.jpg" width="520" height="390" title="After removal of Q1">
+
+<li>Here's the tricky part:  Using a sharp X-acto knife, cut the indicated 
+circuit board trace as shown below and scrape the solder mask from the circuit
+trace just behind the cut.  (It may help to temporarily unplug ribbon cable 
+G and pull it back to gain access to this area).<br>
+<img src="images/dmx_cut_detail_diag.jpg" width="780" height="585" title="Trace cutting diagram"><br>
+Preparing to make the cut:<br>
+<img src="images/dmx_xacto_cut.jpg" width="520" height="485" title="Starting to cut the trace"><br>
+The cut should look like this when finished.  It's best to use two cuts about 
+a millimeter apart to make 
+a &quot;V&quot; shaped pass through the trace into the fiberglass board 
+below. 
+ Remove the debris from the board.<br>
+<img src="images/dmx_cut_finished_detail.jpg" width="520" height="479" title="Finished cut"><br>
+Use the edge of the knife to scrape the green coating (solder mask) covering 
+the copper trace as shown.  When the 
+shiny tinned surface is visible through the entire width of the trace, you 
+have scraped enough.<br>
+<img src="images/dmx_cut_scraping.jpg" width="520" height="390" title="Scraping solder mask"><br>
+It should look like this when the solder mask is removed:<br>
+<img src="images/dmx_after_scrape.jpg" width="493" height="520" title="Solder mask removed">
+
+<li>Tin the bare copper where the solder mask was removed, and solder wire F from the MIDI 
+board to this point.<br>
+<img src="images/dmx_wire_F_finished.jpg" width="520" height="518" title="Wire F soldered in place">
+
+<li>Solder wire E to the right side of the resistor next to Q1, which was 
+just removed.  Make a small &quot;hook&quot; in the end of the wire, 
+and hook it around the end of the resistor when soldering.  Be careful 
+that the wire does not touch any traces passing under the resistor.<br>
+<img src="images/dmx_wire_E_diag.jpg" width="520" height="236" title="Wire E attchment">
+
+<li>Plug the ribbon cables from the MIDI board into the DMX main board.  
+<table border="1">
+<tr><th>Cable</th><th>plugs into</th></tr>
+<!-- <tr><td>JA1</td><td>IC socket 3</td></tr> -->
+<tr><td>JB1</td><td>IC socket 12</td></tr>
+<tr><td>JC1</td><td>IC socket 23</td></tr>
+<tr><td>JD1</td><td>IC socket 20</td></tr>
+</table>
+Notice that JC1 and JD1 flip under the MIDI board in order to reach their sockets.  Fold cable JD1 as shown.
+<br>
+<img src="images/dmx_cable_detail2.jpg" width="520" height="390" 
+title="Cables under MIDI board">
+
+<li>Using the screws removed in step 3, attach the MIDI board to the standoffs.<br>
+<img src="images/dmx_midi_board_installed2.jpg" width="520" height="390" 
+title="Board secured in place">
+
+<li>Remove the right side wooden end panel by undoing two screws on the outside, and replace it with the 
+new end panel which has two MIDI jacks installed.  If you purchased a 
+matching replacement panel for the left panel, repeat the process on the 
+other side.<br>
+<img src="images/dmx_midi_jack_plate.jpg" width="520" height="390" title="End panel with MIDI jacks">
+
+<li>If you want to make your own modifications to the end panel, follow <a 
+href="panel_cutout/panel_cutout.html">these instructions</a>.  A plunge router with a 1/4 in 
+diameter bit works well for the cutout if you make two or three passes, cutting a 
+little bit deeper with each pass.  <br>Alternately, you can use a drill 
+to make the cutout with a series of holes.  A 3/4 inch Forstner bit 
+works well for this.  You will need to use a chisel to 
+clear the bits between the drilled holes.
+<br>Use the jack plate 
+itself as a drilling guide for the mounting screws.  Predrill the screw 
+holes with a 7/64 inch drill bit (test on a piece of scrapwood to make sure this hole size 
+will work with the #6 x 1/2 inch screws 
+provided).  
+
+<li>Plug the cable from the MIDI IN jack into connector JPH1 on the MIDI board, and plug the MIDI OUT cable 
+into connector JPG1.<br>
+<br>
+<img src="images/dmx_midi_cables_installed2.jpg" width="520" 
+height="390" title="Standard MIDI jack connections">
+<li>
+Optionally, you can connect the output jack to the MIDI Thru connector 
+(JPT1) instead of the MIDI Out connector.
+<br>
+<img src="images/dmx_midi_cables_installed_alt.jpg" width="520" 
+height="390" title="Alternate MIDI jack connections">
+
+<li>Remove the old NiCd battery from the DMX (the large white 
+cylinder just in front of the bass, snare and hi-hat voice cards).  Cut 
+the wires at each end, and take the old battery to a suitable battery 
+recycling center (do not put it in the trash!).<br>
+The new lithium battery on the MIDI board will keep your sequences in 
+memory when the power is off and, unlike the old battery,
+ does not require charging, and should last much longer.
+<br>With the addition of the new lithium battery, the warning label on the 
+outside of the case regarding battery charging no longer applies and may 
+be removed.  Removal of this label can be done by dampening a folded paper 
+towel with denatured or isopropyl alcohol and placing it on the label for 
+a few minutes.  (Don't overdo it -- you don't want liquid running down 
+the front panel).  The paper label should become saturated and the 
+adhesive softened enough to peel or scrape the label off with a fingernail.
+<li>Double-check the installation and make sure all the ribbon cables are plugged in correctly. 
+Then close the front cover, plug in the power cable and turn on the DMX while holding the 
+<strong>ERASE</strong> button (this will initialize the new memory).  
+
+</ol>
+
+<h3>Troubleshooting</h3>
+<p>In case there is a problem with the installation, check for the following common problems.
+<table border="1">
+<tr><th>Symptom</th><th>Possible problems/solutions</th></tr>
+
+<tr>
+<td>No display</td>
+<td><ol>
+<li>Plug in power cable and turn on power switch.
+<li>Make sure the front panel ribbon cables are plugged in properly.
+<li>Make sure the MIDI board ribbon cables are plugged in correctly to the right sockets on the DMX main board.
+<li>Check the orientation of all ICs that were moved from the DMX main board to the MIDI board.  Check for bent pins.
+<li>Make sure that the EPROMs were removed from the DMX main board.
+</ol></td>
+</tr>
+
+<tr>
+<td>DMX works intermittently</td>
+<td><ol>
+<li>Make sure that all the old RAM ICs were removed from the DMX main board.
+<li>Make sure all cables are plugged in securely.
+</ol></td>
+</tr>
+
+<tr>
+<td>No DMX clock or no clock out</td>
+<td><ol>
+<li>Check installation of MIDI board wires E and F.
+</ol></td>
+</tr>
+
+<tr>
+<td>MIDI not working</td>
+<td><ol>
+<li>Check for swapped MIDI input/output cables.  
+<li>Check MIDI settings under EDIT parameters.
+</ol></td>
+</tr>
+
+<!--
+<tr>
+<td>Errors in data / sequences lost after power off</td>
+<td><ol>
+<li>Battery may be dead.  Old batteries lose their ability to hold a charge after several years.
+Check voltage between ground and the +5M test point with power turned off.  Should be 3 volts or higher. 
+<li>Hold <strong>ERASE</strong> button down while turning power on to reinitialize memory.
+</ol></td>
+</tr>
+-->
+
+</table>
+
+<p>For further assistance, contact Electrongate by <a href="mailto:pjwhite@electrongate.com">email</a>.
+<br>&nbsp;<br>
+</body>
+</html>

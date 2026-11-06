@@ -1,0 +1,20 @@
+# Node
+node_modules/
+webapp/dist/
+webapp/.vite/
+# Playwright / tooling
+webapp/test-results/
+# KiCad working files
+hardware/kicad/timeshift/*-backups/
+hardware/kicad/timeshift/fp-info-cache
+hardware/kicad/timeshift/*.lck
+hardware/kicad/timeshift/~*.lck
+# Python
+__pycache__/
+*.pyc
+# Firmware sim build
+firmware/sim/*.o
+firmware/sim/test_timeshift
+# OS / editor
+.DS_Store
+*.swp
