@@ -25,6 +25,8 @@ DX's own U701 chip is between them.*
 >    **Owner's answer (2026-11-06): yes, it is a plain Oberheim DX.** The technician still reads the
 >    board title and the ROM labels when the lid is open, to record the board number and firmware version.
 > 2. **Q1:** Is U701 in a socket? If it is soldered in, the mod is no longer fully reversible.
+>    **Owner's note:** the voice chips on this unit were socketed after purchase. U701 is a logic chip,
+>    not a voice chip, so the technician still checks it with a torch (one minute).
 > 3. **Q2:** What do the snare trigger lines (RST2, FFA2, FFB2) really look like on a logic analyser?
 > 4. **Q3:** Is there enough height under the closed lid for the board (about 32 mm)?
 > 5. **Q4:** Does the U701 clock line (GEN0*) stay clean when it runs through the ribbon cable?

@@ -84,6 +84,11 @@ Wikimedia Commons, CC BY-SA 3.0.*
 
 ## 4. Confirm U701 is in a socket (Q1)
 
+> **Owner's note (2026-11-06):** the owner had sockets fitted to the voice chips on this board after
+> buying it. U701 is not a voice chip (it is the 16-pin MC14174B trigger latch next to U702 to U704,
+> near the Z80), so whether it got a socket in that job is not certain. The torch check below takes
+> one minute and settles it. If U701 turns out to be socketed, Q1 passes and the mod is fully reversible.
+
 1. Shine a torch along both sides of U701.
 2. A **socket** shows a black plastic frame under the chip. The chip legs go down into metal
    contacts, and there are no solder fillets on top of the legs.
