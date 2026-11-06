@@ -74,6 +74,7 @@ tuned up). Limits: the lag is fixed, not tempo-locked, and the chip has room for
 60 ms of lead-in before the snare tail is cut (about 200 ms if the SJ2/SJ3 solder jumpers are
 moved). A 27C256 on a small adapter with a two-pole switch could offer four selectable lags.
 The script, procedure and adapter drawing for this option have not been written yet.
+**To resume this work, start from [docs/NEXT-STEPS.md](docs/NEXT-STEPS.md), which holds the full brief.**
 
 ## Interactive 3D walkthrough
 
